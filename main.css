@@ -379,7 +379,7 @@
     position: absolute;
     top: 15vh;
     right: 4vw;
-    font-size: 3.2vmax;
+    font-size: 3vmax;
     font-family: haim;
     color: #991f24;
 }
@@ -387,7 +387,7 @@
 #textn2 {
     position: absolute;
     font-family: miriam;
-    font-size: 3vmax;
+    font-size: 2.8vmax;
     top: 19vh;
     text-align: center;
     color: #0b2c54;
@@ -398,7 +398,7 @@
     position: absolute;
     top: 53vh;
     right: 3vw;
-    font-size: 3.5vmax;
+    font-size: 3.2vmax;
     font-family: haim;
     color: #991f24;
 }
@@ -406,7 +406,7 @@
 #listN2 {
     position: absolute;
     top: 58vh;
-    font-size: 3vmax;
+    font-size: 2.8vmax;
     font-family: 'miriam';
     line-height: 0.8;
     color: #0b2c54;
@@ -434,7 +434,7 @@
 
 #listN4 {
     position: absolute;
-    top: 45vh;
+    top: 46vh;
     right: 6vw;
     font-size: 3.5vmax;
     font-family: miriam;
@@ -444,7 +444,7 @@
 
 #textn4 {
     position: absolute;
-    top: 59vh;
+    top: 61vh;
     right: 3vw;
     font-size: 3vmax;
     font-family: haim;
@@ -455,7 +455,7 @@
     position: absolute;
     font-family: miriam;
     font-size: 3vmax;
-    top: 40vh;
+    top: 37vh;
     right: 6vw;
     color: #0b2c54;
     line-height: 1.5;
@@ -464,8 +464,8 @@
 #listh5 {
     position: absolute;
     font-family: miriam;
-    font-size: 3.2vmax;
-    top: 59vh;
+    font-size: 3vmax;
+    top: 57vh;
     right: 6vw;
     color: #0b2c54;
     line-height: 1.5;
@@ -475,7 +475,7 @@
     position: absolute;
     top: 23vh;
     right: 4vw;
-    font-size: 3.4vmax;
+    font-size: 3.2vmax;
     font-family: miriam;
     color: #0b2c54;
 }
@@ -484,16 +484,16 @@
     position: absolute;
     top: 15vh;
     right: 7vw;
-    font-size: 3.5vmax;
+    font-size: 3.2vmax;
     font-family: haim;
     color: #991f24;
 }
 
 #example {
     position: absolute;
-    top: 59.2vh;
+    top: 57.3vh;
     right: 6vw;
-    font-size: 3.2vmax;
+    font-size: 3vmax;
     font-family: 'miriam';
     color: #991f24;
     z-index: 1;
@@ -565,7 +565,7 @@
 #must {
     position: absolute;
     top: 54.2vh;
-    right: 9.55vw;
+    right: 5.55vw;
     font-size: 3.2vmax;
     font-family: 'miriam';
     color: #991f24;
@@ -595,7 +595,7 @@
 #exam {
     position: absolute;
     top: 49.1vh;
-    right: 0.5vw;
+    right: 4.5vw;
     font-size: 2.5vmax;
     font-family: 'miriam';
     color: #991f24;
@@ -633,7 +633,7 @@
     position: absolute;
     top: 17vh;
     right: 2.7vw;
-    font-size: 3.4vmax;
+    font-size: 3.2vmax;
     line-height: 1.2;
     font-family: miriam;
     color: #0b2c54;
@@ -643,7 +643,7 @@
     position: absolute;
     font-family: miriam;
     font-size: 3vmax;
-    top: 54vh;
+    top: 49vh;
     text-align: center;
     color: #0b2c54;
 }
@@ -684,7 +684,7 @@
     position: absolute;
     top: 23vh;
     right: 2.7vw;
-    font-size: 3vmax;
+    font-size: 2.5vmax;
     line-height: 1.2;
     font-family: miriam;
     color: #0b2c54;
@@ -692,8 +692,8 @@
 
 #report {
     position: absolute;
-    height: 32vh;
-    bottom: 25vh;
+    height: 28vh;
+    bottom: 31vh;
     right: 15vw;
     z-index: -1;
 }
@@ -702,7 +702,7 @@
     position: absolute;
     font-family: miriam;
     font-size: 3vmax;
-    top: 74vh;
+    top: 67vh;
     text-align: center;
     color: #0b2c54;
 }
@@ -728,7 +728,7 @@
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    top: 18vh;
+    top: 14vh;
     text-align: center;
     font-size: 3.5vmax;
     font-family: haim;
@@ -741,7 +741,7 @@
     font-size: 3.2vmax;
     left: 50%;
     transform: translate(-50%);
-    top: 22vh;
+    top: 19vh;
     color: #0b2c54;
     line-height: 1.5;
     width: 88vw;
@@ -752,7 +752,7 @@
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    top: 37vh;
+    top: 34vh;
     text-align: center;
     font-size: 3.5vmax;
     font-family: haim;
@@ -763,7 +763,7 @@
     position: absolute;
     font-family: miriam;
     font-size: 3.2vmax;
-    top: 41vh;
+    top: 39vh;
     color: #0b2c54;
     line-height: 1.5;
     text-align: center;
@@ -773,7 +773,7 @@
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    top: 51vh;
+    top: 49vh;
     text-align: center;
     font-size: 3.2vmax;
     font-family: haim;
@@ -784,7 +784,7 @@
     position: absolute;
     font-family: miriam;
     font-size: 3.5vmax;
-    top: 54vh;
+    top: 52vh;
     color: #0b2c54;
     line-height: 1.5;
     text-align: center;
@@ -794,7 +794,7 @@
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    top: 65vh;
+    top: 63vh;
     text-align: center;
     font-size: 3.5vmax;
     font-family: haim;
@@ -805,7 +805,7 @@
     position: absolute;
     font-family: miriam;
     font-size: 3.2vmax;
-    top: 70vh;
+    top: 67vh;
     color: #0b2c54;
     line-height: 1.5;
     text-align: center;
@@ -953,7 +953,7 @@
     }
 
     to {
-        font-size: 3vmax;
+        font-size: 2.7vmax;
         opacity: 1;
     }
 }
@@ -972,8 +972,9 @@
 #hamsec {
     display: none;
     position: absolute;
-    bottom: 10vh;
-    right: 23vh;
+    bottom: 15vh;
+    left: 50%;
+    transform: translate(-50%);
     font-size: 4vmax;
     font-family: miriam;
     color: #0b2c54;
@@ -1058,21 +1059,21 @@
 
 #q1A1 {
     position: absolute;
-    top: 29vh;
+    top: 27vh;
     right: 2vw;
     font-size: 4vmax;
 }
 
 #q1A2 {
     position: absolute;
-    top: 37vh;
+    top: 35vh;
     right: 2vw;
     font-size: 4vmax;
 }
 
 #q1A3 {
     position: absolute;
-    top: 51vh;
+    top: 49vh;
     right: 2vw;
     font-size: 4vmax;
 }
@@ -1088,7 +1089,8 @@
     display: none;
     position: absolute;
     bottom: 10vh;
-    right: 23vh;
+    left: 50%;
+    transform: translate(-50%);
     font-size: 4vmax;
     font-family: miriam;
     color: #0b2c54;
@@ -1156,14 +1158,14 @@
 
 .q3A2 {
     position: absolute;
-    top: 41vh;
+    top: 43vh;
     right: 2vw;
     font-size: 4vmax;
 }
 
 .q3A3 {
     position: absolute;
-    top: 51vh;
+    top: 54vh;
     right: 2vw;
     font-size: 4vmax;
 }
@@ -1173,6 +1175,78 @@
     top: 62vh;
     right: 2vw;
     font-size: 4vmax;
+}
+#q52 {
+    position: absolute;
+    top: 40vh;
+    right: 2vw;
+    font-size: 4vmax;
+}
+
+#q53 {
+    position: absolute;
+    top: 49vh;
+    right: 2vw;
+    font-size: 4vmax;
+}
+
+#q54 {
+    position: absolute;
+    top: 62vh;
+    right: 2vw;
+    font-size: 4vmax;
+}
+#q61 {
+    position: absolute;
+    top: 40vh;
+    right: 2vw;
+    font-size: 3.5vmax;
+}
+#q62 {
+    position: absolute;
+    top: 40vh;
+    right: 2vw;
+    font-size: 3.5vmax;
+}
+
+#q63 {
+    position: absolute;
+    top: 49vh;
+    right: 2vw;
+    font-size: 3.5vmax;
+}
+
+#q74 {
+    position: absolute;
+    top: 62vh;
+    right: 2vw;
+    font-size: 3.5vmax;
+}
+#q71 {
+    position: absolute;
+    top: 40vh;
+    right: 2vw;
+    font-size: 3.5vmax;
+}
+#q72 {
+    position: absolute;
+    top: 40vh;
+    right: 2vw;
+    font-size: 3.5vmax;
+}
+
+#q73 {
+    position: absolute;
+    top: 49vh;
+    right: 2vw;
+    font-size: 3.5vmax;
+}
+
+#q74 {
+    position: absolute;
+    top: 62vh;
+    right: 2vw;
+    font-size: 3.5vmax;
 }
 
 #date {
