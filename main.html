@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>לומדת רבנות</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="main.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <img src="./assets/pictures/pele.png" alt="pele" id="pele">
+    <img src="./assets/pictures/mali.png" alt="mali" id="mali">
+    <img src="./assets/pictures/rabanut.png" alt="rabanut" id="rabanut">
+    <img src="./assets/pictures/mhal.png" alt="mhal" id="mhal">
+    <div id="arrows">
+        <img src="./assets/pictures/back.png" alt="back" id="back">
+        <img src="./assets/pictures/next.png" alt="next" id="next">
+    </div>
+    <div id="p1" class="mainP">
+        <h1 id="headLine">לומדת הרבנות</h1>
+    </div>
+    <div id="p2" class="pages info">
+        <h1 class="title">הקדמה:</h1>
+        <h2 id="textP2">ברוך הבא ללומדת הרבנות!
+            מטרת לומדה זו הינה ליצור שפה משותפת בין סגלי הרבנות ביחידה המתאמנת וחונכי הרבנות במא"ל. נעבור על מושגי יסוד
+            של מבנה צה"ל, תכנון וביצוע מבצעים, עבודת הרבנות בשוטף וטיפול בחללים.
+            הלומדה אינה תחליף לחונך והינה בעלת ידע בסיסי בלבד!
+            .על כן יושלמו כלל התכנים על ידי סימולציות וחניכה צמודה של חונך הרבנות</h2>
+        <h2 id="goodluck">בהצלחה</h2>
+    </div>
+    <div id="p3" class="pages info">
+        <h1 class="title">דילמות</h1>
+        <h2 id="textP3">תפקידה של מחלקת הרבנות מלווה בדילמות רבות שלהן הרב וחייליו יצטרכו לתת מענה.
+            על רב הגדוד לשמור על יציבות וקור רוח נוכח הדילמות שייתקל בהן ולתת מענה מהיר ומקצועי ככל הניתן.
+            מעבר לתרגולו המעשי של הרב בנושא טיפול בחללים ישנה חשיבות רבה לתרגל את רב הגדוד בתפקידו כקצין בפלס"ם, ויכולתו
+            לקבל החלטות בשטח ע"פ שיקול דעתו</h2>
+        <img src="./assets/pictures/options.png" alt="yes/no" id="options">
+    </div>
+    <div id="p4" class="pages info">
+        <img src="./assets/pictures/puzzle.png" alt="puzzle" id="puzzle">
+        <img src="./assets/pictures/hand.png" alt="hand" id="hand">
+        <h1 id="textP4">לחץ על הנושא שתרצה להתחיל ללמוד</h1>
+        <div id="generlD"></div>
+        <div id="nohalD"></div>
+        <div id="careD"></div>
+        <div id="searchD"></div>
+    </div>
+    <div id="generl" class="pages pieces">
+        <div id="g1">
+            <h1 class="header">כללי</h1>
+        </div>
+        <div id="g2" class="pages info">
+            <h1 class="title">מחלקת הרבנות בגדוד</h1>
+            <h2 id="textg2">בכל גדוד ישנה מחלקת רבנות ת"פ פלוגת סיוע המנהלתי.
+                המחלקה מורכבת מרב צבאי בדרגת קצונה וארבעה חיילים.
+                באחריות המחלקה לתת מענה לגדוד בשגרה וחירום בכלל תחומי הרבנות.
+                ככוח שמופעל רק במילואים, מצופה מאנשי הרבנות במחלקה להיות בקיאים בתו"ל הרבנות בחירום ובכל הנוגע לטיפול
+                בחללים, בנוסף ליכולתם לתת מענה בשאר תחומי הרבנות.
+                כאשר מחלקת הרבנות פועלת ככוח מטפל בחללים, היא גם נקראת תא"ח (תחנת איסוף חללים)</h2>
+            <img src="./assets/pictures/soliders.png" alt="soliders" id="soliders">
+        </div>
+        <div id="g3" class="pages info">
+            <h1 class="title">תא"ח</h1>
+            <h2 id="textg3">תחנת איסוף חללים הינה "תחנה" המופעלת ע"י מחלקת הרבנות המתעסקת בטיפול בחללים וממצאים</h2>
+            <h2 id="listH">משימות התא"ח:</h2>
+            <ul id="listG3">
+                <li>קליטת חללים המובאים אליו</li>
+                <li>זיהוי חללים מוקדם ככל הניתן ותיעוד כל דבר העשוי לסייע בזיהוי</li>
+                <li>פינוי מהיר ככל הניתן מהתחנה. שליטה בתמונת מצב החללים</li>
+            </ul>
+            <h2 id="botTextg3">כל השלבים ייעשו תוך שמירה מירבית על כבוד המת</h2>
+        </div>
+        <div id="g4" class="pages info">
+            <h1 class="title">מיקום מחלקת הרבנות</h1>
+            <h2 id="textg4">מיקום מחלקת הרבנות בפלס"ם הינו עם כוחות הרפואה.
+                בכוחות מנוגמ"שים, המחלקה נמצאת בנגמ"שי 18 עם התאג"ד.
+                בכוחות קלים, על הרב להגדיר ביחד עם המג"ד/קרפ"ג את מיקומם של מחלקת הרבנות בהתאם לתכנית האופרטיבית והכשרת
+                סד"כ הרבנות כאשר העדיפות הראשונה היא ביחד עם לבנות הרפואה. לרוב, כוחות הרפואה ביחידות האלה מחולקים בין
+                הפלוגות הלוחמות בחוליות רפואיות קדמיות (חר"קים)</h2>
+        </div>
+        <div id="g5" class="pages info">
+            <h1 class="title">חלוקת תפקידים בתא"ח</h1>
+            <h2 id="t1">רב הגדוד</h2>
+            <h2 id="t2">מפקד התא"ח</h2>
+            <h2 id="t3">סגן רב</h2>
+            <h2 id="t4">באחריות רב הגדוד לתת מענה לגדוד שלם ולכן מומלץ למנות ס.רב מתוך חיילי הרבנות שיתפקד כדמות פו"שית
+                כאשר יש צורך לתת מענה לאירועים רבים במקביל</h2>
+            <h2 id="t5">רשם</h2>
+            <h2 id="t6">באחריות הרשם למלא את כל הטפסים הנדרשים במלואם ולתעד את פעילותו של התא"ח. באירועי חללים, באחריותו
+                להיצמד למתחקר העדים ולתעד את תהליך הזיהוי</h2>
+        </div>
+        <div id="g6" class="pages info">
+            <h1 class="title">נאמן רבנות</h1>
+            <h2 id="textg6">במקביל ללוחמים המוכשרים לתת מענה בסיסי לפצועים (ע"י הנחת ח"ע וכדומה) ולחובשים במרחבים
+                הפלוגתיים, יש למנות נאמני רבנות שיכולים לתת מענה ראשוני לאירועי חללים בכוחות המתמרנים.
+                תפקידם של נאמני הרבנות הינו ביצוע עיטוף בסיסי והעברת פרטים רלוונטיים לרב הגדוד בנוגע לזהות החלל ונסיבות
+                האירוע. כל זה על מנת לאפשר את רצף הלחימה, שמירה על כבוד המת וניסיון מירבי לאמת את זהות החלל. באחריות רב
+                הגדוד לספק ציוד ייעודי לכלל נאמני הרבנות במסגרתו ולבצע רענון לפני יציאה לקרב</h2>
+        </div>
+        <div id="g7" class="pages info">
+            <h1 class="title">שרשרת הפינוי</h1>
+            <h2 id="textg7">שרשרת פינוי החללים מתבססת על שרשרת פינוי הפצועים, והיא משתנה בהתאם למתאר ולשלב הלחימה בו נפל
+                החלל.
+                ככלל, נעדיף למזער את כמות ההחלפות, אך לפעמים יש צורך בהעברות מתחנה לתחנה, על מנת לאפשר לכלים לחזור
+                ללחימה בזמן קצר או בהתאם לשרשרת הפינוי.
+                נקודת שחלוף הינה נקודה מוגדרת לטובת העברת פצועים וחללים. אין כוח קבוע בנקודה, ורק חוברים לנקודה לאחר
+                תיאום
+                בין שני הכוחות.
+                יש לציין כי בכל נקודה אליה יגיע החלל עד הגיעו למאנ"ח ישנו מענה רבנותי שידאג להמשך העברתו אחורה באופן
+                בטוח
+                ומקצועי</h2>
+        </div>
+        <div id="g8" class="pages info">
+            <h1 class="title">ציוד חללים ותספיקי דת</h1>
+            <h2 id="textg8">התא"ח הגדודי מבוסס על שני תיקי תא"ח כאשר כל תיק מכיל ציוד לחמישה חללים. באחריות רב הגדוד
+                לדאוג שקיימת עתודה של 150% ציוד (כמות מספקת לחמישה עשר חללים נוספים) ברמת הגדוד ולתאם תכנית "מלא מחדש"
+                מול מפל"ג ההספקה.
+                בנוסף, על רב הגדוד לדאוג לתספיקי דת שונים (כגון ציציות, תפילין וכו') לכלל החיילים המעוניינים בכך.
+                באחריותו לוודא שרבנות החטיבה תספק לו ציוד רבנותי זה, וכן שפלגת ההספקה תשנע אותו אליו</h2>
+        </div>
+        <div id="g9" class="pages info"></div>
+    </div>
+    <div id="nohal" class="pages pieces">
+        <div id="n1">
+            <h1 class="header">נוהל קרב</h1>
+        </div>
+        <div id="n2" class="pages info">
+            <h1 class="title">כללי</h1>
+            <h2 id="headn2">כל משימה מחולקת לשני שלבים:</h2>
+            <h2 id="textn2">תכנון וביצוע, או בשפה צבאית, נוהל הקרב וניהול הקרב.
+                מחלקת הרבנות הינה חלק מכוחות הסיוע המנהלתי, ותפקידה לתמוך במשימתם של הפלס"ם והגדוד. לכן, בנוסף לגיבוש
+                תכנית הרבנות, נוה"ק הינו הזדמנות לתאם ציפיות עם כלל בעלי תפקידים בפלס"ם ולהבין איך כל אחד יכול לסייע
+                לשני</h2>
+            <h2 id="listH2">שלבי נוה"ק בפלס"ם:</h2>
+            <list id="listN2">
+                <ul>קפ"ק 1 – הורדת פקודה מרמה ממונה</ul>
+                <ul>גיבוש תכניות – עבודה על הפקודה הלוגיסטית של הגדוד: כתיבת סעיף ונספח</ul>
+                <ul>קפ"ק 2 – העמקת ההיכרות בתכנית של יחידות המשנה</ul>
+            </list>
+        </div>
+        <div id="n3" class="pages info">
+            <h1 class="title">נספח רבנות</h1>
+            <h2 id="textn3">הנספח הינו קובץ הוראות מקצועיות של כל תחום בפלס"ם המצורף לפקודה הלוגיסטית, ומפרט באופן מלא
+                את כל פעילויות התחום במהלך המשימה.
+                בשלב זה, יש לדקור את מתקני הרבנות הרלוונטיים במשואה ולתכנן את צירי הפינוי עם הרפואה.
+                נספח הרבנות הגדודי נגזר מנספח הרבנות החטיבתי ויש לתאם ציפיות מול רב החטיבה לפני תחילת עבודה על הנספח
+            </h2>
+        </div>
+        <div id="n4" class="pages info">
+            <h1 class="title">סעיף הרבנות</h1>
+            <h2 id="listH4">סעיף הרבנות הינו סעיף קצר, מוזן במשואה, המתאר את תכנית הרבנות באופן רלוונטי למפקד בשטח.
+                הסעיף הוא בסיס לאישור תכניות של הרבנות בפלס"ם ומחולק לשלושה חלקים:</h2>
+            <ul id="listN4">
+                <li>מענה לאירועי חללים</li>
+                <li>מענה לאירועי סריקה</li>
+                <li>דגשים מקצועיים ("רבנות אמת")</li>
+            </ul>
+            <h2 id="textn4">כל אירוע חלל דורש מענה תואם תרחיש, ולכן יש לשים דגש על שלבי הלחימה, סיווג אירועים ותכנית
+                הפעולה הכללית של הפלס"ם</h2>
+        </div>
+        <div id="n5" class="pages info">
+            <h1 class="title">יחסי גומלין</h1>
+            <h2 id="textn5">על הרב לדווח ולקבל הנחיות בשני מישורים:</h2>
+            <ul id="listN5">
+                <li>רמה ממונה מקצועית: רב החטיבה</li>
+                <li>רמה ממונה פיקודית: מפקדת הפלס"ם</li>
+            </ul>
+            <h2 id="listH5">נוה"ק מהווה הזדמנות טובה גם לתאם ציפיות ותכניות עם שאר בעלי תפקידים בפלס"ם וכך לכתוב סעיף
+                רבנותי שלם ורלוונטי יותר.</h2>
+            <h2 id="listh5">לדוגמא: לפי תו"ל הרבנות, כאשר ישנם חלקים נפרדים, אנו מתייחסים לכל חלק כאל חלל בפני עצמו.
+                לכן, יש לתאם שפה משותפת עם גורמי המשא"ן כדי לחסוך אי-הבנות ביניהם.</h2>
+            <h2 id="example">לדוגמא:</h2>
+        </div>
+    </div>
+    <div id="care" class="pages pieces">
+        <div id="c1">
+            <h1 id="header">סד"פ טיפול בחלל</h1>
+        </div>
+        <div id="c2" class="pages info">
+            <h1 class="title">שלבי טיפול בחלל</h1>
+            <ol id="listC2">
+                <li>הכנה עצמית</li>
+                <li>קבלת החלל ובניית תמ"צ</li>
+                <li>העברת מקל ואישורים</li>
+                <li>טיפול ראשוני בחלל</li>
+                <li>עדות</li>
+                <li>סיום טיפול</li>
+                <li>פינוי וסגירת מעגלים</li>
+            </ol>
+            <img src="./assets/pictures/checkList.png" alt="checkList" id="checkList">
+        </div>
+        <div id="c3" class="pages info">
+            <h1 class="title">שלב א' - הכנה עצמית</h1>
+            <h2 id="textc3">על רב הגדוד להכין את מחלקתו מכל הבחינות לקראת יום פקודה. הכנה זו כוללת הכנה נפשית, הכנת ציוד
+                והכרת הטפסים. לפני קבלת חלל, מצופה מכל אחד במחלקת הרבנות להכיר את התיק ושיטת המילוי של הטפסים. בנוסף, יש
+                לחלק משימות ותחומי אחריות לכל אחד ממפעילי התא"ח. </h2>
+            <h2 id="textBc3">חובה לבצע מסדר ציוד ע"י מפקד התא"ח לפני יציאה ללחימה, ויש לעקוב גם אחר החוסן הנפשי של
+                מפעילי התא"ח.</h2>
+            <h2 id="must">חובה</h2>
+            <img src="./assets/pictures/mirror.png" alt="mirror" id="mirror">
+        </div>
+        <div id="c4" class="pages info">
+            <h1 class="title">שלב ב’ - קבלת החלל ובניית תמ"צ</h1>
+            <h2 id="textc4">עם קבלת החלל, יש לשים כפפות לדאוג לכיסוי והצנעת החלל לצורך שמירה על כבוד המת וכבוד החיים.
+                לפני תחילת טיפול, יש לעצור ולתכנן את הפעולות הנדרשות ע"י בניית תמונת מצב שנגזרת מתמונת מצב אג"מי, מיקום
+                כוחות הסיוע המנהלתי ומוכנותם לפינוי.
+                לאחר מכן, יש להבין איזה בעלי תפקידים נצרכים על מנת לבצע את הטיפול.</h2>
+            <h2 id="textBc4">לדוגמא: אם החלל מגיע בלי בגדים, אין צורך באישור אי-המצאות תחמושת ואם אין זמן לבצע זיהוי
+                בהיכרות אישית, אין צורך בעדים שמכירים את החלל.
+
+                לאחר גיבוש תכנית הטיפול, יש לחפש את בעלי התפקידים הרלוונטיים (כולל עדים), לתדרך אותם על סדר הפעולות
+                הנדרשות, לוודא כשירותם המנטלית לביצוע הפעולה ולהמשיך בטיפול. עם תחילת הטיפול, ייפתח טופס 246 . </h2>
+            <h2 id="exam">לדוגמא:</h2>
+        </div>
+        <div id="c5" class="pages info">
+            <h1 class="title">שלב ג’ - טיפול ראשוני בחלל</h1>
+            <h2 id="textc5">מטרת שלב זה הינה טיפול מינימלי לפני קבלת עדות. השאיפה היא לשחרר את העדים בהקדם האפשרי ולכן
+                עדיף לקבל את העדות לפני טיפול מלא.
+                לאחר גיבוש תכנית הטיפול וקבלת האישורים הנדרשים, יש לכסות את החלל, לשים אצעדה על ידו הימנית ולרשום בטופס
+                246 את המספר. בנוסף, יש לאסוף את כל החלקים והחפצים של החלל ולשים אותם בשקיות פינוי ואיסוף. במקרה הצורך,
+                יש לנקות את פני החלל ולהכינו לזיהוי. </h2>
+            <img src="./assets/pictures/pic9.png" alt="pic9" id="pic9">
+        </div>
+        <div id="c6" class="pages info">
+            <h1 class="title">שלב ד' - עדות</h1>
+            <h2 id="textc6">כללי:</h2>
+            <ul id="listC6">
+                <li>זיהוי בהיכרות אישית הינה פעולה בעלת משקל רב וחשיבותה מתבטאת הן בהיבט ההלכתי והן בהיבט המשפטי-אזרחי.
+                </li>
+                <li>על צוות התא"ח לנסות לגבות עדות משני אנשים המכירים את החלל, אך גם במידה ויהיה רק מזהה אחד יילקח
+                    הזיהוי בכל זאת.</li>
+            </ul>
+            <h2 id="textBc6">כל מידע על חלל שלא על בסיס היכרות אישית או זיהוי מדעי (טביעות אצבע, DNA וחלל הפה) נקרא
+                "זיהוי נסיבתי" .
+                על אף שאי-אפשר לקבוע את זהות החלל ע"ב זה, כל פריט מידע קטן יכול להשלים פערים בסיפור ולכוון את תהליך
+                הזיהוי. גם במקרה שיש זיהוי בהכ"א, יש לנסות להביא כמה שיותר מידע מהשטח כדי לחזק את הזיהוי.
+            </h2>
+        </div>
+        <div id="c7" class="pages info">
+            <h1 class="title">שלב ה' - סיום טיפול</h1>
+            <h2 id="textc7">לאחר תהליך הזיהוי ותיעוד, יש להשלים את הטיפול ולהכין את החלל לפינוי.</h2>
+            <ul id="listC7">
+                <li>סיום טופס 246</li>
+                <li>הכנסה לשק</li>
+                <li>השהייה (במידת הצורך) עם שמירה צמודה</li>
+            </ul>
+            <img src="./assets/pictures/pic13.png" alt="pic13" id="pic13">
+        </div>
+        <div id="c8" class="pages info">
+            <h1 class="title">שלב ו' - פינוי וסגירת מעגלים</h1>
+            <h2 id="textc8">לפני פינוי החלל, יש למלא טופס 248 (דו"ח העברת חלל) ולהעביר שני עותקים של הטופס לנהג עם
+                עותקים של טפסי 246 של כל החללים שרשומים ב-248.
+                בנוסף, יש למלא טופס 249 (יומן תא"ח), לעקוב אחר פערים (עזר 26) ולבצע חזרה לכשירות.</h2>
+            <img src="./assets/pictures/report.png" alt="report" id="report">
+            <h1 id="textBc8">יש לסגור מעגלים בעת פינוי חללים ע"י דיווחים על יציאה וקבלת דיווח שהחלל נקלט בתחנה המתקבלת.
+            </h1>
+        </div>
+        <div id="c9" class="pages info">
+            <h1 class="title">חללי אויב</h1>
+            <h2 id="textc9">טיפול בחלל אויב הינו אירוע אג"מי ואין לטפל בחללי אויב בלי אישור של אג"ם הגדוד. לפני טיפול של
+                הרב, יש לוודא סילוק פצצות ע"י גורם מוסמך (אישור של קצין לוחם לא מספיק) וטיפול ע"י יחפ"ש (יחידה לאיסוף
+                ולפינוי שלל) ומודיעין. לאחר פעולות אלה ואישור אג"מי, יש לעטוף את החלל באופן בסיסי ולפנות כחלל רגיל.
+            </h2>
+            <img src="./assets/pictures/pic14.png" alt="pic14" id="pic14">
+        </div>
+        <div id="c10" class="pages info">
+            <h1 class="title">טפסים ברמת הגדוד</h1>
+            <h2 id="t1n">טופס 246:</h2>
+            <h2 id="t2n">דו"ח על איסוף חלל
+                תעודת הזהות של החלל שמתעדת את כל תהליך הטיפול והזיהוי.</h2>
+            <h2 id="t3n">טופס 248:</h2>
+            <h2 id="t4n">דו"ח העברת חללים
+                "תעודת משלוח" על פינוי חללים.
+            </h2>
+            <h2 id="t5n">טופס 249:</h2>
+            <h2 id="t6n">יומן תא"ח
+                תיעוד כלל החללים שעברו בתא"ח.</h2>
+            <h2 id="t7n">עזר 26:</h2>
+            <h2 id="t8n">כשירות מסגרות רב"ץ
+                עזר שמיועד לעקוב אחרי כשירות התא"ח בהיבטי ציוד, כוח אדם ועוד.</h2>
+        </div>
+    </div>
+    <div id="search" class="pages pieces">
+        <div id="s1">
+            <h1 id="header2">סריקה</h1>
+        </div>
+        <div id="s2" class="pages info">
+            <h1 class="title">אירוע סריקה</h1>
+            <h2 id="texts2">אירוע סריקה הינו אירוע בו יש פיזור נרחב של חלל אחד ומעלה. יש ליישר קו לגבי הגדרת אירוע סריקה
+                עם רב החטיבה ומ"פ הפלס"ם בשלב נוה"ק ולתכנן את המענה לאירוע כזה בכלל שלבי הלחימה.
+                המענה האידיאלי לאירוע מסוג זה ניתן ע"י יחידות סריקה וריכוז (יס"ר) שמורכבות מלוחמים שבקיאים ומנוסים
+                במקצוע הסריקה ומופעלים ע"י רבנות חטיבה/אוגדה.
+                במידה ואין אפשרות לבצע סריקה מקצועית כנדרש, באחריות רב הגדוד לתת מענה רבנותי לאירוע ככל שניתן. </h2>
+        </div>
+        <div id="s3" class="pages info">
+            <h1 class="title">סריקה - יס"ר</h1>
+            <h2 id="heads3">תפקיד רב הגדוד:</h2>
+            <h2 id="texts3">מתפקד ת"פ מפקד היס"ר בטיפול אחראי על תיאום ברמת הגדוד מבצע סריקה ראשונית והעברת מקל לצוות
+                יס"ר סגירת מעגלים אג"מית ומקצועית</h2>
+            <img src="./assets/pictures/look.png" alt="look" id="look">
+            <img src="./assets/pictures/lookingG.png" alt="lookG" id="lookG">
+        </div>
+        <div id="s4" class="pages info">
+            <h1 class="title">טכניקות בסיסיות לסריקה</h1>
+            <h2 id="heads4">סריקה קווית:</h2>
+            <h2 id="texts4">שיטת הסריקה "שתי וערב" מיועדת לשטחים פתוחים ומאפשרת כיסוי של גזרה גדולה בפרק זמן קצר יחסית.
+            </h2>
+            <img src="./assets/pictures/graph.png" alt="graph" id="graph">
+        </div>
+        <div id="s5" class="pages info">
+            <h1 class="title">טכניקות בסיסיות לסריקה</h1>
+            <h2 id="heads5">סריקה מעגלית</h2>
+            <h2 id="texts5">שיטת הסריקה "שבלול" מיועדת לשטחים שיש בהם מוקד מרכזי של פגיעה או פיצוץ.
+            </h2>
+            <img src="./assets/pictures/circles.png" alt="circles" id="circles">
+        </div>
+    </div>
+    <div id="infoTest" class="pages info">
+        <h1 id="headT">לאחר שלמדתם ותרגלתם, הגיע הזמן למבחן קצר.</h1>
+        <h1 id="textT">המבחן מורכב מX שאלות.
+            שימו לב כי ברגע שתעברו לשקף הבא, לא תוכלו לחזור אחורה ולכן אם אתם עדיין מרגישים שאתם צריכים לחזור על החומר,
+            עכשיו זה בדיוק הזמן!
+            בנוסף, אין באפשרותכם לנווט בין השאלות, ברגע שעברתם שאלה התשובה שסימנתם היא תשובתכם הסופית, אז מומלץ לשקול
+            טוב לפני שתעברו שאלה.
+            בעמוד הבא תתבקשו להזין את הפרטים האישיים שלכם על מנת שנוכל לזהות מי עשה את המבחן :)
+            בסוף המבחן יוצג לכם מסך עם פרטיכם האישיים והציון שלכם. עליכם לצלם מסך ואת צילום המסך יש להעביר לגורם
+            הרלוונטי.</h1>
+        <h1 id="hamsec">המשך</h1>
+    </div>
+    <div id="theTest" class="pages info">
+        <div id="infos" class="pages">
+            <img src="./assets/pictures/nots1.png" alt="note1" id="note1">
+            <input type="text" id="name">
+            <img src="./assets/pictures/nots2.png" alt="note2" id="note2">
+            <input type="text" id="phone">
+            <img src="./assets/pictures/nots3.png" alt="note3" id="note3">
+            <input type="text" id="place">
+            <img src="./assets/pictures/nots4.png" alt="note4" id="note4">
+            <input type="text" id="job">
+            <h1 id="toTest">למבחן</h1>
+        </div>
+        <h1 id="headTest">מבחן מקצועי - מחלקת רבנות</h1>
+        <div id="question1" class="pages">
+            <form>
+                <p class="textQ1">מהו קפ"ק 1 בפלס"ם?</p>
+                <label for="q1ans1" id="q1A1"><input type="radio" id="q1ans1" name="q1"> הצגת נספחים מקצועיים לרמה
+                    ממונה
+                </label>
+                <br>
+                <label for="q1ans2" id="q1A2"><input type="radio" id="q1ans2" name="q1"> הורדת פקודה לוגיסטית מרמה
+                    ממונה ופקודה אג"מית של הגדוד
+                </label>
+                <br>
+                <label for="q1ans3" id="q1A3"><input type="radio" id="q1ans3" name="q1"> הורדת פקודה של מ"פ הפלס"ם
+                    למפקדי פלוגות הלוחמות
+                </label>
+                <br>
+                <label for="q1ans4" id="q1A4"><input type="radio" id="q1ans4" name="q1"> הצגת נספחים מקצועיים למפקדי
+                    פלוגות הלוחמות
+                </label>
+                <br>
+            </form>
+        </div>
+        <h1 id="haba">הבא</h1>
+        <div id="question2" class="pages">
+            <form>
+                <p class="textQ1">תחת פיקודו של מי נמצאת מחלקת הרבנות?</p>
+                <label for="q2ans1" id="q2A1"><input type="radio" id="q2ans1" name="q2">רב החטיבה
+                </label>
+                <br>
+                <label for="q2ans2" id="q2A2"><input type="radio" id="q2ans2" name="q2">קמש"ג
+                </label>
+                <br>
+                <label for="q2ans3" id="q2A3"><input type="radio" id="q2ans3" name="q2">סמ"פ הפלס"ם
+                </label>
+                <br>
+                <label for="q2ans4" id="q2A4"><input type="radio" id="q2ans4" name="q2">קרפ"ג ומ"פ הפלס"ם
+                </label>
+                <br>
+            </form>
+        </div>
+        <div id="question3" class="pages">
+            <form>
+                <p class="textQ1">מהו מיקום מחלקת הרבנות?</p>
+                <label for="q3ans1" class="q3A1"><input type="radio" id="q3ans1" name="q3">צמוד לכוחות הרפואה
+                </label>
+                <br>
+                <label for="q3ans2" class="q3A2"><input type="radio" id="q3ans2" name="q3">חפ"ק סמג"ד
+                </label>
+                <br>
+                <label for="q3ans3" class="q3A3"><input type="radio" id="q3ans3" name="q3">15א' - צמוד למשא"ן
+                </label>
+                <br>
+                <label for="q3ans4" class="q3A4"><input type="radio" id="q3ans4" name="q3">במטבח
+                </label>
+                <br>
+            </form>
+        </div>
+        <div id="question4" class="pages">
+            <form>
+                <p class="textQ1">מה תפקידו של נאמן רבנות?</p>
+                <label for="q4ans1" class="q3A1"><input type="radio" id="q4ans1" name="q4">נאמן הרבנות הינו כינוי לחיילי
+                    הרבנות בגדוד
+                </label>
+                <br>
+                <label for="q4ans2" class="q3A2"><input type="radio" id="q4ans2" name="q4">לדווח על בעיות כשרות ודת בגדוד
+                    הלוחם
+                </label>
+                <br>
+                <label for="q4ans3" class="q3A3"><input type="radio" id="q4ans3" name="q4">כינוי לחיילים בצוות היס"ר
+                </label>
+                <br>
+                <label for="q4ans4" class="q3A4"><input type="radio" id="q4ans4" name="q4">ביצוע עיטוף בסיסי והעברת פרטים
+                    לרב במקרה הצורך
+                </label>
+                <br>
+            </form>
+        </div>
+        <div id="question5" class="pages">
+            <form>
+                <p class="textQ1">מהי נקודת שחלוף?</p>
+                <label for="q5ans1" class="q3A1"><input type="radio" id="q5ans1" name="q5">מיקום האמבולנס בפלמ"ר
+                </label>
+                <br>
+                <label for="q5ans2" class="q3A2"><input type="radio" id="q5ans2" name="q5">מיקום מחלקת הפינוי הגדודית
+                </label>
+                <br>
+                <label for="q5ans3" class="q3A3"><input type="radio" id="q5ans3" name="q5">מקום מתואם בין שני כוחות לצורך
+                    שחלוף נפגעים
+                </label>
+                <br>
+                <label for="q5ans4" class="q3A4"><input type="radio" id="q5ans4" name="q5">נקודה אפשרית לפריסת פלה"ק
+                </label>
+                <br>
+            </form>
+        </div>
+        <div id="question6" class="pages">
+            <form>
+                <p class="textQ1">מהם נוה"ק וניהו"ק?</p>
+                <label for="q6ans1" class="q3A1"><input type="radio" id="q6ans1" name="q6">נוה"ק = ביצוע המבצע,
+                    ניהו"ק=תכנון המבצע (נוהל קרב וניהול קרב)
+                </label>
+                <br>
+                <label for="q6ans2" class="q3A2"><input type="radio" id="q6ans2" name="q6"> נוה"ק=חוקי השהיית חללים,
+                    ניהו"ק=שיטת השהיית חללים. (נוהל קירור וניהול קירור)
+                </label>
+                <br>
+                <label for="q6ans3" class="q3A3"><input type="radio" id="q6ans3" name="q6">נוה"ק=תכנון המבצע,
+                    ניהו"ק=ביצוע המבצע (נוהל קרב וניהול קרב)
+                </label>
+                <br>
+                <label for="q6ans4" class="q3A4"><input type="radio" id="q6ans4" name="q6">נוה"ק=שיטת השהיית חללים,
+                    ניהו"ק=חוקי השהיית חללים. (נוהל קירור וניהול קירור)
+                </label>
+                <br>
+            </form>
+        </div>
+        <div id="question7" class="pages">
+            <form>
+                <p class="textQ1">מהו ההבדל בין נספח לסעיף?</p>
+                <label for="q7ans1" class="q3A1"><input type="radio" id="q7ans1" name="q7">נספח - רמת החטיבה, סעיף - רמת
+                    הגדוד
+                </label>
+                <br>
+                <label for="q7ans2" class="q3A2"><input type="radio" id="q7ans2" name="q7">הנספח מפרט את תכנית הרבנות
+                    השלמה, הסעיף מתאר את
+                    תכנית הרבנות באופן רלוונטי למפקד בשטח
+                </label>
+                <br>
+                <label for="q7ans3" class="q3A3"><input type="radio" id="q7ans3" name="q7"> נספח – רמת גדוד, סעיף – רמת
+                    החטיבה
+                </label>
+                <br>
+                <label for="q7ans4" class="q3A4"><input type="radio" id="q7ans4" name="q7">הסעיף מפרט את תכנית הרבנות
+                    השלמה, הנספח מדגיש את
+                    הנקודות שרלוונטיות לשת"פ של כוחות אחרים בשטח
+                </label>
+                <br>
+            </form>
+        </div>
+        <div id="question8" class="pages">
+            <form>
+                <p class="textQ1">מהו חלק "דגשים מקצועיים" בסעיףהרבנות?</p>
+                <label for="q8ans1" class="q3A1"><input type="radio" id="q8ans1" name="q8">סעיף שמתאר את פעילות הרבנות
+                    בתחום "רבנות אמת"
+                </label>
+                <br>
+                <label for="q8ans2" class="q3A2"><input type="radio" id="q8ans2" name="q8">סעיף שמתאר את הדגשים שרלוונטיים
+                    למפקד בשטח
+
+                </label>
+                <br>
+                <label for="q8ans3" class="q3A3"><input type="radio" id="q8ans3" name="q8">סעיף עם הדגשים שחייבים לעבור
+                    אישור של רב החטיבה
+
+                </label>
+                <br>
+                <label for="q8ans4" class="q3A4"><input type="radio" id="q8ans4" name="q8">באחריות רב הגדוד למנות מראש ס.רב
+                    מתוך חיילי הרבנות
+
+                </label>
+                <br>
+            </form>
+        </div>
+        <div id="question9" class="pages">
+            <form>
+                <p class="textQ1">מה הפתרון כאשר יש צורך בדמות פיקודית לאירוע חללים נוסף?</p>
+                <label for="q9ans1" class="q3A1"><input type="radio" id="q9ans1" name="q9">להזמין יס"ר
+                </label>
+                <br>
+                <label for="q9ans2" class="q3A2"><input type="radio" id="q9ans2" name="q9">באירועים בהם נדרש עוד דמות
+                    פיקודית בנושא חללים
+                    הקמש"ג יתפקד כרב ב'
+                </label>
+                <br>
+                <label for="q9ans3" class="q3A3"><input type="radio" id="q9ans3" name="q9">יינתן מענה ע"י רבנות החטיבה
+
+                </label>
+                <br>
+                <label for="q9ans4" class="q3A4"><input type="radio" id="q9ans4" name="q9">באחריות רב הגדוד למנות מראש ס.רב
+                    מתוך חיילי הרבנות
+                </label>
+                <br>
+            </form>
+        </div>
+        <div id="question10" class="pages">
+            <form>
+                <p class="textQ1">באילו מקרים רב הגדוד מטפל בחללי אויב?</p>
+                <label for="q10ans1" class="q3A1"><input type="radio" id="q10ans1" name="q10">טיפול בחללי אויב רק ע"י
+                    יטח"א (יחידה לטיפול בחללי אויב)
+                </label>
+                <br>
+                <label for="q10ans2" class="q3A2"><input type="radio" id="q10ans2" name="q10"> יש לטפל בכל חלל אויב כמו
+                    חלל צה"ל רגיל. מסיבות הלכתיות,
+                    אין לפנות חללי אויב עם חללי צה"ל באותו כלי
+                </label>
+                <br>
+                <label for="q10ans3" class="q3A3"><input type="radio" id="q10ans3" name="q10">טיפול בחללי אויב הינו אירוע
+                    אג"מי ועל הרב
+                    לטפל רק בהוראת מג"ד ולאחר אישור ס"פ ויחפ"ש
+                </label>
+                <br>
+                <label for="q10ans4" class="q3A4"><input type="radio" id="q10ans4" name="q10"> יש לטפל בכל מקרה כדי לשמור
+                    על כבוד המת,
+                    אבל אין לפנות אלא באישור מח"ט
+
+                </label>
+                <br>
+            </form>
+        </div>
+        <div id="question11" class="pages">
+            <form>
+                <p class="textQ1">מי מספק לרב הגדוד את תספיקי הדת?</p>
+                <label for="q11ans1" class="q3A1"><input type="radio" id="q11ans1" name="q11">חיל הרבנות הצבאית
+                </label>
+                <br>
+                <label for="q11ans2" class="q3A2"><input type="radio" id="q11ans2" name="q11">רבנות החטיבה
+                </label>
+                <br>
+                <label for="q11ans3" class="q3A3"><input type="radio" id="q11ans3" name="q11"> מתנדבים אזרחיים
+                </label>
+                <br>
+                <label for="q11ans4" class="q3A4"><input type="radio" id="q11ans4" name="q11">התאג"ד עם הצר"פ
+                </label>
+                <br>
+            </form>
+        </div>
+        <div id="question12" class="pages">
+            <form>
+                <p class="textQ1">מי יכול לחתום על אישור "אי-המצאות תחמושת" בדו"ח איסוף חלל? </p>
+                <label for="q12ans1" class="q3A1"><input type="radio" id="q12ans1" name="q12">רק קצין הנדסה
+                </label>
+                <br>
+                <label for="q12ans2" class="q3A2"><input type="radio" id="q12ans2" name="q12">רק איש צוות ס"פ
+                </label>
+                <br>
+                <label for="q12ans3" class="q3A3"><input type="radio" id="q12ans3" name="q12">רק מ"פ קרבי ומעלה
+                </label>
+                <br>
+                <label for="q12ans4" class="q3A4"><input type="radio" id="q12ans4" name="q12">כל קצין שעבר השלמה קרבית
+                    (גפן, קק"ש וכו')
+                </label>
+                <br>
+            </form>
+        </div>
+        <div id="question13" class="pages">
+            <form>
+                <p class="textQ1">מי רשאי לתת אישור מוות?</p>
+                <label for="q13ans1" class="q3A1"><input type="radio" id="q13ans1" name="q13">רופא בלבד
+                </label>
+                <br>
+                <label for="q13ans2" class="q3A2"><input type="radio" id="q13ans2" name="q13">רופא ופארמדיק
+                </label>
+                <br>
+                <label for="q13ans3" class="q3A3"><input type="radio" id="q13ans3" name="q13">חוג"ד
+                </label>
+                <br>
+                <label for="q13ans4" class="q3A4"><input type="radio" id="q13ans4" name="q13">חופ"ל ומעלה
+                </label>
+                <br>
+            </form>
+        </div>
+        <div id="question14" class="pages">
+            <form>
+                <p class="textQ1">מאלו חלקים מורכב סעיף הרבנות?</p>
+                <label for="q14ans1" class="q3A1"><input type="radio" id="q14ans1" name="q14">מענה לאירועי חללים, מענה
+                    לאירועי סריקה ודגשים מקצועיים
+                </label>
+                <br>
+                <label for="q14ans2" class="q3A2"><input type="radio" id="q14ans2" name="q14">מענה לאירועי חללים וסריקה,
+                    טיפול בחללי אויב ודגשים מקצועיים
+                </label>
+                <br>
+                <label for="q14ans3" class="q3A3"><input type="radio" id="q14ans3" name="q14">דגשים מקצועיים, יס"ר ואית"ן
+                </label>
+                <br>
+                <label for="q14ans4" class="q3A4"><input type="radio" id="q14ans4" name="q14">טיפול בחללים, טיפול בבעיות
+                    כשרות,
+                    מורל (רעו"ת) ודגשים מקצועיים
+                </label>
+                <br>
+            </form>
+        </div>
+        <div id="question15" class="pages">
+            <form>
+                <p class="textQ1">מתי יש לכסות את החלל ומדוע?</p>
+                <label for="q15ans1" class="q3A1"><input type="radio" id="q15ans1" name="q15">לפני תחילת הטיפול, להגן על
+                    החלל מפני השמש
+                </label>
+                <br>
+                <label for="q15ans2" class="q3A2"><input type="radio" id="q15ans2" name="q15">רק לאחר זיהוי בהיכרות אישית,
+                    כדי לראות את פני החלל במהלך הזיהוי
+                </label>
+                <br>
+                <label for="q15ans3" class="q3A3"><input type="radio" id="q15ans3" name="q15">רק במידה ומגיע מופשט, יש
+                    לכסות במידי מטעמי צניעות
+
+                </label>
+                <br>
+                <label for="q15ans4" class="q3A4"><input type="radio" id="q15ans4" name="q15">לפני תחילת הטיפול, לצורך
+                    שמירה על כבוד המת וכבוד החיים
+                </label>
+                <br>
+            </form>
+        </div>
+        <div id="question16" class="pages">
+            <form>
+                <p class="textQ1">באיזה שלב יפתח טופס 246? </p>
+                <label for="q16ans1" class="q3A1"><input type="radio" id="q16ans1" name="q16">עם תחילת הזיהוי
+                </label>
+                <br>
+                <label for="q16ans2" class="q3A2"><input type="radio" id="q16ans2" name="q16"> טופס 246 יפתח בעת הגעת
+                    הפינוי ויימסר לנהג
+                </label>
+                <br>
+                <label for="q16ans3" class="q3A3"><input type="radio" id="q16ans3" name="q16">עם תחילת הטיפול
+                </label>
+                <br>
+                <label for="q16ans4" class="q3A4"><input type="radio" id="q16ans4" name="q16">טופס 246 ימולא ע"י הנהג בלבד
+                    ויימסר לרב
+                </label>
+                <br>
+            </form>
+        </div>
+        <div id="question17" class="pages">
+            <form>
+                <p class="textQ1">איפה על הרב לשים אצעדה?</p>
+                <label for="q17ans1" class="q3A1"><input type="radio" id="q17ans1" name="q17">על היד השמאלית
+                </label>
+                <br>
+                <label for="q17ans2" class="q3A2"><input type="radio" id="q17ans2" name="q17">על היד הימנית
+                </label>
+                <br>
+                <label for="q17ans3" class="q3A3"><input type="radio" id="q17ans3" name="q17">על הרגל
+                </label>
+                <br>
+                <label for="q17ans4" class="q3A4"><input type="radio" id="q17ans4" name="q17">על שקית האיברים/רקמות
+                </label>
+                <br>
+            </form>
+        </div>
+        <div id="question18" class="pages">
+            <form>
+                <p class="textQ1">אילו אמצעי זיהוי הינם זיהוי נסיבתי?</p>
+                <label for="q18ans1" class="q3A1"><input type="radio" id="q18ans1" name="q18">זיהוי בהיכרות אישית
+                </label>
+                <br>
+                <label for="q18ans2" class="q3A2"><input type="radio" id="q18ans2" name="q18">טביעות אצבע
+                </label>
+                <br>
+                <label for="q18ans3" class="q3A3"><input type="radio" id="q18ans3" name="q18">DNA
+                </label>
+                <br>
+                <label for="q18ans4" class="q3A4"><input type="radio" id="q18ans4" name="q18">דסקית
+                </label>
+                <br>
+            </form>
+        </div>
+        <div id="question19" class="pages">
+            <form>
+                <p class="textQ1">מה על רב הגדוד לעשות במידה ויש מזהה אחד בלבד?</p>
+                <label for="q19ans1" class="q3A1"><input type="radio" id="q19ans1" name="q19">לגבות את העדות בכל זאת בתור
+                    זיהוי בהכ"א
+                </label>
+                <br>
+                <label for="q19ans2" class="q3A2"><input type="radio" id="q19ans2" name="q19">לגבות את העדות בכל זאת, אך
+                    יש לתעד רק בזיהוי הנסיבתי
+                </label>
+                <br>
+                <label for="q19ans3" class="q3A3"><input type="radio" id="q19ans3" name="q19">עד אחד פסול לעדות ולכן לא
+                    גובים את עדותו
+                </label>
+                <br>
+                <label for="q19ans4" class="q3A4"><input type="radio" id="q19ans4" name="q19">רק גובים עדות מעד אחד במקרה
+                    שהוא שומר תורה ומצוות
+                </label>
+                <br>
+            </form>
+        </div>
+        <div id="question20" class="pages">
+            <form>
+                <p class="textQ1">מול איזה גורמים חייב לסגור מעגלים בסיום הטיפול?</p>
+                <label for="q20ans1" class="q3A1"><input type="radio" id="q20ans1" name="q20">קמש"ג, קרפ"ר ומ"פ פלס"ם
+                </label>
+                <br>
+                <label for="q20ans2" class="q3A2"><input type="radio" id="q20ans2" name="q20">רבצ"ר, סמג"ד וסמ"פ פלס"ם
+                </label>
+                <br>
+                <label for="q20ans3" class="q3A3"><input type="radio" id="q20ans3" name="q20">מ"פ פלס"ם, קמש"ג ורב חטיבה
+                </label>
+                <br>
+                <label for="q20ans4" class="q3A4"><input type="radio" id="q20ans4" name="q20">רב החטיבה בלבד
+                </label>
+                <br>
+            </form>
+        </div>
+        <div id="question21" class="pages">
+            <form>
+                <p class="textQ1">מה ייעודו של עזר 26?</p>
+                <label for="q21ans1" class="q3A1"><input type="radio" id="q21ans1" name="q21">אין קשר לרבנות, מדובר בעזר
+                    לוגיסטי בלבד
+                </label>
+                <br>
+                <label for="q21ans2" class="q3A2"><input type="radio" id="q21ans2" name="q21">טופס שליטה באירועי סריקה
+                </label>
+                <br>
+                <label for="q21ans3" class="q3A3"><input type="radio" id="q21ans3" name="q21">טופס שמיועד לעקוב אחרי
+                    כשירות ציוד, כ"א וכו' במחלקת הרבנות
+                </label>
+                <br>
+                <label for="q21ans4" class="q3A4"><input type="radio" id="q21ans4" name="q21">טופס שליטה באירועי חללים
+                    וסריקה
+                </label>
+                <br>
+            </form>
+        </div>
+        <div id="question22" class="pages">
+            <form>
+                <p class="textQ1">מהי מטרתו של קפ"ק 2?</p>
+                <label for="q22ans1" class="q3A1"><input type="radio" id="q22ans1" name="q22">להעמיק את ההיכרות בתכניות של
+                    יחידות המשנה
+                </label>
+                <br>
+                <label for="q22ans2" class="q3A2"><input type="radio" id="q22ans2" name="q22">הורדת פקודה לוגיסטית ממ"פ
+                    הפלס"ם לאחר קפ"ק 1
+                </label>
+                <br>
+                <label for="q22ans3" class="q3A3"><input type="radio" id="q22ans3" name="q22">הורדת פקודה מקצועית מרב
+                    החטיבה לאחר קפ"ק 1
+                </label>
+                <br>
+                <label for="q22ans4" class="q3A4"><input type="radio" id="q22ans4" name="q22">הורדת פקודה תו"לית מחונך
+                    הרבנות
+                </label>
+                <br>
+            </form>
+        </div>
+        <div id="question23" class="pages">
+            <form>
+                <p class="textQ1">מהי כמות ציוד החללים ברמת הגדוד?</p>
+                <label for="q23ans1" class="q3A1"><input type="radio" id="q23ans1" name="q23">אין ציוד ברמת הגדוד, באחריות
+                    הרב למשוך מהחטיבה
+                </label>
+                <br>
+                <label for="q23ans2" class="q3A2"><input type="radio" id="q23ans2" name="q23"> ציוד ללא הגבלה, רק צריך
+                    ללכת למשוך
+                </label>
+                <br>
+                <label for="q23ans3" class="q3A3"><input type="radio" id="q23ans3" name="q23">שני תיקים (תא"ח) אצל רב
+                    הגדוד ועתודה שלושה תיקים בפלגת ההספקה
+                </label>
+                <br>
+                <label for="q23ans4" class="q3A4"><input type="radio" id="q23ans4" name="q23">שני תיקים (תא"ח) אצל רב
+                    הגדוד ועתודה ציוד לחמישה עשר חללים בפלגת ההספקה
+                </label>
+                <br>
+            </form>
+        </div>
+        <div id="question24" class="pages">
+            <form>
+                <p class="textQ1">מהי מטרתו של שלב "טיפול ראשוני בחלל"?</p>
+                <label for="q24ans1" class="q3A1"><input type="radio" id="q24ans1" name="q24">בניית תמ"צ וגיבוש תכנית
+                    טיפול
+                </label>
+                <br>
+                <label for="q24ans2" class="q3A2"><input type="radio" id="q24ans2" name="q24">טיפול מינימלי לפני קבלת עדות
+                </label>
+                <br>
+                <label for="q24ans3" class="q3A3"><input type="radio" id="q24ans3" name="q24">קבלת אישור מוות ואישור
+                    אי-המצאות תחמושת
+                </label>
+                <br>
+                <label for="q24ans4" class="q3A4"><input type="radio" id="q24ans4" name="q24">טיפול מינימלי לפני פינוי
+                </label>
+                <br>
+            </form>
+        </div>
+        <div id="question25" class="pages">
+            <form>
+                <p class="textQ1">מהי הגדרת אירוע סריקה?</p>
+                <label for="q25ans1" class="q3A1"><input type="radio" id="q25ans1" name="q25">אירוע שיש צורך לסרוק בו אחר
+                    נפלים של תמ"ס
+                </label>
+                <br>
+                <label for="q25ans2" class="q3A2"><input type="radio" id="q25ans2" name="q25">אירוע סריקה אחר מחבלים בשטח
+                    אויב
+                </label>
+                <br>
+                <label for="q25ans3" class="q3A3"><input type="radio" id="q25ans3" name="q25">אירוע סריקה אחר ממצאים
+                    לאיתור נעדרים
+                </label>
+                <br>
+                <label for="q25ans4" class="q3A4"><input type="radio" id="q25ans4" name="q25">אירוע סריקה הינו אירוע בו יש
+                    פיזור נרחב של חלל אחד ומעלה
+                </label>
+                <br>
+            </form>
+        </div>
+        <div id="question26" class="pages">
+            <form>
+                <p class="textQ1">מהן שיטות הסריקה הבסיסיות ומתי משתמשים בכל שיטה?</p>
+                <label for="q26ans1" class="q3A1"><input type="radio" id="q26ans1" name="q26">קווית- מיועדת לסריקה סביב
+                    רק"ם.
+                    מעגלית- מיועדת לסריקה בשטח פתוח
+                </label>
+                <br>
+                <label for="q26ans2" class="q3A2"><input type="radio" id="q26ans2" name="q26">קווית- מיועדת לסריקה בסבך.
+                    מעגלית- מיועדת לסריקה סביב מבנה
+                </label>
+                <br>
+                <label for="q26ans3" class="q3A3"><input type="radio" id="q26ans3" name="q26">קווית- מיועדת לסריקה בשטח
+                    פתוח.
+                    מעגלית- מיועדת לסריקה סביב רק"ם
+                </label>
+                <br>
+                <label for="q26ans4" class="q3A4"><input type="radio" id="q26ans4" name="q26">קווית- מיועדת לסריקה בלילה.
+                    מעגלית- מיועדת לסריקה בתוך מבנה
+                </label>
+                <br>
+            </form>
+        </div>
+        <div id="finish">
+            <h1 id="date"></h1>
+            <h1 id="time"></h1>
+            <h1 id="wrong">עליכם לחזור על הלומדה</h1>
+            <h1 id="right"></h1>
+            <h1 id="takePic">צלמו את המסך ושלחו למי שצריך</h1>
+        </div>
+    </div>
+</body>
+
+</html>
