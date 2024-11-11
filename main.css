@@ -565,7 +565,7 @@
 #must {
     position: absolute;
     top: 54.2vh;
-    right: 7.55vw;
+    right: 6.55vw;
     font-size: 3.2vmax;
     font-family: 'miriam';
     color: #991f24;
@@ -595,7 +595,7 @@
 #exam {
     position: absolute;
     top: 49.1vh;
-    right: 5.5vw;
+    right: 4.5vw;
     font-size: 2.5vmax;
     font-family: 'miriam';
     color: #991f24;
@@ -1200,52 +1200,52 @@
     position: absolute;
     top: 26vh;
     right: 2vw;
-    font-size: 3.5vmax;
+    font-size: 3.2vmax;
 }
 #q62 {
     position: absolute;
     top: 38vh;
     right: 2vw;
-    font-size: 3.5vmax;
+    font-size: 3.2vmax;
 }
 
 #q63 {
     position: absolute;
     top: 54vh;
     right: 2vw;
-    font-size: 3.5vmax;
+    font-size: 3.2vmax;
 }
 #q64 {
     position: absolute;
     top: 65vh;
     right: 2vw;
-    font-size: 3.5vmax;
+    font-size: 3.2vmax;
 }
 #q71 {
     position: absolute;
     top: 30vh;
     right: 2vw;
-    font-size: 3.5vmax;
+    font-size: 3.2vmax;
 }
 #q72 {
     position: absolute;
     top: 37vh;
     right: 2vw;
-    font-size: 3.5vmax;
+    font-size: 3.2vmax;
 }
 
 #q73 {
     position: absolute;
     top: 53vh;
     right: 2vw;
-    font-size: 3.5vmax;
+    font-size: 3.2vmax;
 }
 
 #q74 {
     position: absolute;
     top: 62vh;
     right: 2vw;
-    font-size: 3.5vmax;
+    font-size: 3.2vmax;
 }
 .q81 {
     position: absolute;
@@ -1272,6 +1272,32 @@
     top: 66vh;
     right: 2vw;
     font-size: 3.5vmax;
+}
+#q101 {
+    position: absolute;
+    top: 30vh;
+    right: 2vw;
+    font-size: 3.2vmax;
+}
+#q102 {
+    position: absolute;
+    top: 37vh;
+    right: 2vw;
+    font-size: 3.2vmax;
+}
+
+#q103 {
+    position: absolute;
+    top: 53vh;
+    right: 2vw;
+    font-size: 3.2vmax;
+}
+
+#q104 {
+    position: absolute;
+    top: 62vh;
+    right: 2vw;
+    font-size: 3.2vmax;
 }
 #textq9{
     position: absolute;
