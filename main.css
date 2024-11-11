@@ -97,7 +97,7 @@
 
 .title {
     position: relative;
-    top: 9vh;
+    top: 7vh;
     text-align: center;
     font-size: 5.5vmax;
     font-family: haim;
@@ -109,7 +109,7 @@
     position: absolute;
     font-family: miriam;
     font-size: 3vmax;
-    top: 20vh;
+    top: 19vh;
     width: 83vw;
     right: 7vw;
     text-align: center;
@@ -121,7 +121,7 @@
     position: absolute;
     font-family: 'haim';
     color: #991f24;
-    bottom: 9vh;
+    bottom: 12vh;
     right: 30vw;
     font-size: 5vmax;
 }
@@ -147,7 +147,8 @@
 
 #puzzle {
     position: absolute;
-    right: 10vh;
+    left: 50%;
+    transform: translate(-50%);
     top: 41vh;
     height: 39vh;
 }
@@ -164,7 +165,7 @@
     font-family: miriam;
     font-size: 4vmax;
     top: 21vh;
-    width: 74vw;
+    width: 82vw;
     right: 10vw;
     text-align: center;
     color: #0b2c54;
@@ -176,7 +177,7 @@
     height: 18vh;
     width: 32vw;
     bottom: 40vh;
-    right: 20vw;
+    right: 16vw;
 }
 
 .pieces {
@@ -206,7 +207,7 @@
 #textg2 {
     position: absolute;
     font-family: miriam;
-    font-size: 3vmax;
+    font-size: 2.8vmax;
     top: 21vh;
     width: 83vw;
     right: 7vw;
@@ -246,9 +247,9 @@
     position: absolute;
     top: 40vh;
     right: 3vw;
-    font-size: 3.5vmax;
+    font-size: 3.3vmax;
     font-family: 'miriam';
-    line-height: 0.8;
+    line-height: 1.2;
     color: #0b2c54;
 }
 
@@ -298,7 +299,7 @@
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    top: 35vh;
+    top: 34vh;
     text-align: center;
     font-size: 3vmax;
     font-family: haim;
@@ -309,7 +310,7 @@
     position: absolute;
     font-family: miriam;
     font-size: 2.7vmax;
-    top: 40vh;
+    top: 39vh;
     color: #0b2c54;
     line-height: 1.5;
     text-align: center;
@@ -319,7 +320,7 @@
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    top: 59vh;
+    top: 56vh;
     text-align: center;
     font-size: 3vmax;
     font-family: haim;
@@ -330,7 +331,7 @@
     position: absolute;
     font-family: miriam;
     font-size: 2.7vmax;
-    top: 64vh;
+    top: 61vh;
     color: #0b2c54;
     line-height: 1.5;
     text-align: center;
@@ -339,7 +340,7 @@
 #textg6 {
     position: absolute;
     font-family: miriam;
-    font-size: 3.2vmax;
+    font-size: 3vmax;
     top: 19vh;
     text-align: center;
     color: #0b2c54;
@@ -349,7 +350,7 @@
 #textg7 {
     position: absolute;
     font-family: miriam;
-    font-size: 3vmax;
+    font-size: 2.8vmax;
     top: 17vh;
     text-align: center;
     color: #0b2c54;
@@ -371,12 +372,12 @@
     height: 18vh;
     width: 32vw;
     bottom: 40vh;
-    right: 54vw;
+    right: 52vw;
 }
 
 #headn2 {
     position: absolute;
-    top: 17vh;
+    top: 15vh;
     right: 4vw;
     font-size: 3.2vmax;
     font-family: haim;
@@ -387,7 +388,7 @@
     position: absolute;
     font-family: miriam;
     font-size: 3vmax;
-    top: 21vh;
+    top: 19vh;
     text-align: center;
     color: #0b2c54;
     line-height: 1.5;
@@ -395,7 +396,7 @@
 
 #listH2 {
     position: absolute;
-    top: 56vh;
+    top: 53vh;
     right: 3vw;
     font-size: 3.5vmax;
     font-family: haim;
@@ -404,7 +405,7 @@
 
 #listN2 {
     position: absolute;
-    top: 62vh;
+    top: 58vh;
     font-size: 3vmax;
     font-family: 'miriam';
     line-height: 0.8;
@@ -433,7 +434,7 @@
 
 #listN4 {
     position: absolute;
-    top: 43vh;
+    top: 45vh;
     right: 6vw;
     font-size: 3.5vmax;
     font-family: miriam;
@@ -453,7 +454,7 @@
 #listH5 {
     position: absolute;
     font-family: miriam;
-    font-size: 3.2vmax;
+    font-size: 3vmax;
     top: 40vh;
     right: 6vw;
     color: #0b2c54;
@@ -464,7 +465,7 @@
     position: absolute;
     font-family: miriam;
     font-size: 3.2vmax;
-    top: 62vh;
+    top: 59vh;
     right: 6vw;
     color: #0b2c54;
     line-height: 1.5;
@@ -472,7 +473,7 @@
 
 #listN5 {
     position: absolute;
-    top: 25vh;
+    top: 23vh;
     right: 4vw;
     font-size: 3.4vmax;
     font-family: miriam;
@@ -481,7 +482,7 @@
 
 #textn5 {
     position: absolute;
-    top: 18vh;
+    top: 15vh;
     right: 7vw;
     font-size: 3.5vmax;
     font-family: haim;
@@ -490,7 +491,7 @@
 
 #example {
     position: absolute;
-    top: 62.2vh;
+    top: 59.2vh;
     right: 6vw;
     font-size: 3.2vmax;
     font-family: 'miriam';
@@ -504,7 +505,7 @@
     height: 18vh;
     width: 32vw;
     bottom: 21vh;
-    right: 20vw;
+    right: 17vw;
 }
 
 #listC2 {
@@ -564,7 +565,7 @@
 #must {
     position: absolute;
     top: 54.2vh;
-    right: 1.55vw;
+    right: 9.55vw;
     font-size: 3.2vmax;
     font-family: 'miriam';
     color: #991f24;
@@ -575,7 +576,7 @@
 #textc4 {
     position: absolute;
     font-family: miriam;
-    font-size: 2.7vmax;
+    font-size: 2.5vmax;
     top: 23vh;
     text-align: center;
     color: #0b2c54;
@@ -584,22 +585,24 @@
 #textBc4 {
     position: absolute;
     font-family: miriam;
-    font-size: 2.7vmax;
-    top: 52vh;
+    font-size: 2.5vmax;
+    top: 49vh;
     text-align: center;
     color: #0b2c54;
     line-height: 1.5;
 }
-#exam{
+
+#exam {
     position: absolute;
-    top: 52.2vh;
-    right: 6.2vw;
-    font-size: 2.7vmax;
+    top: 49.1vh;
+    right: 0.5vw;
+    font-size: 2.5vmax;
     font-family: 'miriam';
     color: #991f24;
     z-index: 1;
     text-decoration: underline;
 }
+
 #textc5 {
     position: absolute;
     font-family: miriam;
@@ -608,39 +611,44 @@
     text-align: center;
     color: #0b2c54;
 }
-#pic9{
+
+#pic9 {
     position: absolute;
     z-index: -1;
     height: 36vh;
     bottom: 5vh;
     right: 55vw;
 }
-#textc6{
+
+#textc6 {
     position: absolute;
-    top: 18vh;
+    top: 14vh;
     right: 7vw;
     font-size: 3.5vmax;
     font-family: haim;
     color: #991f24;
 }
+
 #listC6 {
     position: absolute;
-    top: 21vh;
-    right: 3vw;
+    top: 17vh;
+    right: 2.7vw;
     font-size: 3.4vmax;
     line-height: 1.2;
     font-family: miriam;
     color: #0b2c54;
 }
-#textBc6{
+
+#textBc6 {
     position: absolute;
     font-family: miriam;
     font-size: 3vmax;
-    top: 56vh;
+    top: 54vh;
     text-align: center;
     color: #0b2c54;
 }
-#textc7{
+
+#textc7 {
     position: absolute;
     top: 21vh;
     right: 3vw;
@@ -649,6 +657,7 @@
     font-family: miriam;
     color: #0b2c54;
 }
+
 #listC7 {
     position: absolute;
     top: 36vh;
@@ -658,37 +667,47 @@
     font-family: miriam;
     color: #0b2c54;
 }
-#pic13{
+
+#pic13 {
     position: absolute;
     height: 16vh;
+    width: 79vw;
     bottom: 22vh;
     right: 6vw;
 }
-#textc8{
+
+#titlec10 {
+    font-size: 4.5vmax;
+}
+
+#textc8 {
     position: absolute;
     top: 23vh;
-    right: 3vw;
+    right: 2.7vw;
     font-size: 3vmax;
     line-height: 1.2;
     font-family: miriam;
     color: #0b2c54;
 }
-#report{
+
+#report {
     position: absolute;
     height: 32vh;
-    bottom: 22vh;
+    bottom: 25vh;
     right: 15vw;
     z-index: -1;
 }
-#textBc8{
+
+#textBc8 {
     position: absolute;
     font-family: miriam;
     font-size: 3vmax;
-    top: 77vh;
+    top: 74vh;
     text-align: center;
     color: #0b2c54;
 }
-#textc9{
+
+#textc9 {
     position: absolute;
     top: 23vh;
     right: 3vw;
@@ -697,12 +716,14 @@
     font-family: miriam;
     color: #0b2c54;
 }
-#pic14{
+
+#pic14 {
     position: absolute;
     height: 25vh;
     bottom: 17vh;
     right: 14vw;
 }
+
 #t1n {
     position: absolute;
     left: 50%;
@@ -714,7 +735,7 @@
     color: #991f24;
 }
 
-#t2n{
+#t2n {
     position: absolute;
     font-family: miriam;
     font-size: 3.2vmax;
@@ -742,7 +763,7 @@
     position: absolute;
     font-family: miriam;
     font-size: 3.2vmax;
-    top: 42vh;
+    top: 41vh;
     color: #0b2c54;
     line-height: 1.5;
     text-align: center;
@@ -752,7 +773,7 @@
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    top: 53vh;
+    top: 51vh;
     text-align: center;
     font-size: 3.2vmax;
     font-family: haim;
@@ -763,16 +784,17 @@
     position: absolute;
     font-family: miriam;
     font-size: 3.5vmax;
-    top: 57vh;
+    top: 54vh;
     color: #0b2c54;
     line-height: 1.5;
     text-align: center;
 }
+
 #t7n {
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    top: 68vh;
+    top: 65vh;
     text-align: center;
     font-size: 3.5vmax;
     font-family: haim;
@@ -783,19 +805,21 @@
     position: absolute;
     font-family: miriam;
     font-size: 3.2vmax;
-    top: 72vh;
+    top: 70vh;
     color: #0b2c54;
     line-height: 1.5;
     text-align: center;
 }
-#searchD{
+
+#searchD {
     position: absolute;
     height: 18vh;
     width: 32vw;
     bottom: 21vh;
-    right: 54vw;
+    right: 52vw;
 }
-#header2{
+
+#header2 {
     position: absolute;
     top: 10vh;
     right: 10%;
@@ -804,7 +828,8 @@
     color: aliceblue;
     text-shadow: -2px -1px 3px black;
 }
-#texts2{
+
+#texts2 {
     position: absolute;
     top: 23vh;
     right: 3vw;
@@ -813,7 +838,8 @@
     font-family: miriam;
     color: #0b2c54;
 }
-#heads3{
+
+#heads3 {
     position: absolute;
     top: 19vh;
     font-size: 4vmax;
@@ -824,7 +850,8 @@
     left: 50%;
     transform: translate(-50%);
 }
-#texts3{
+
+#texts3 {
     position: absolute;
     top: 29vh;
     right: 1vw;
@@ -834,21 +861,24 @@
     color: #0b2c54;
     text-align: center;
 }
-#look{
+
+#look {
     position: absolute;
     height: 15vh;
     bottom: 18vh;
     right: 6vw;
     z-index: -1;
 }
-#lookG{
+
+#lookG {
     position: absolute;
     height: 17vh;
     bottom: 18vh;
     right: 62vw;
     z-index: -1;
 }
-#heads4{
+
+#heads4 {
     position: absolute;
     top: 23vh;
     right: 8vw;
@@ -856,9 +886,9 @@
     line-height: 1.2;
     font-family: haim;
     color: #991f24;
-    width: 59vw;
 }
-#texts4{
+
+#texts4 {
     position: absolute;
     top: 30vh;
     right: 1vw;
@@ -868,14 +898,16 @@
     color: #0b2c54;
     text-align: center;
 }
-#graph{
+
+#graph {
     position: absolute;
     height: 27vh;
     bottom: 13vh;
     right: 21vw;
     z-index: -1;
 }
-#heads5{
+
+#heads5 {
     position: absolute;
     top: 23vh;
     right: 8vw;
@@ -884,7 +916,8 @@
     font-family: haim;
     color: #991f24;
 }
-#texts5{
+
+#texts5 {
     position: absolute;
     top: 30vh;
     right: 1vw;
@@ -894,106 +927,50 @@
     color: #0b2c54;
     text-align: center;
 }
-#circles{
+
+#circles {
     position: absolute;
     height: 27vh;
     bottom: 13vh;
     right: 21vw;
     z-index: -1;
 }
-#headT{
+
+#headT {
     position: absolute;
-    top: 13vh;
+    top: 10vh;
     right: 4vw;
     font-size: 4vmax;
     line-height: 1.2;
     font-family: haim;
     color: #991f24;
 }
-@keyframes infoTest{
-    from{
+
+@keyframes infoTest {
+    from {
         font-size: 0.1vmax;
         opacity: 0;
     }
-    to{
+
+    to {
         font-size: 3vmax;
         opacity: 1;
     }
 }
-#textT{
+
+#textT {
     position: absolute;
-    top: 28vh;
-    font-size: 3vmax;
+    top: 26vh;
+    font-size: 2.7vmax;
     line-height: 1.2;
     font-family: miriam;
     color: #0b2c54;
     text-align: center;
     animation: infoTest 5s linear;
 }
-#hamsec{
+
+#hamsec {
     display: none;
-    position: absolute;
-    bottom: 10vh;
-    right: 23vh;
-    font-size: 4vmax;
-    font-family: miriam;
-    color: #0b2c54;
-    border: 9px solid;
-    border-radius: 17%;
-}
-#note1{
-    position: absolute;
-    top: 23vh;
-    right: 11vw;
-}
-#name{
-    height: 2vh;
-    width: 23vw;
-    position: absolute;
-    top: 34vh;
-    right: 16vw;
-    background: transparent;
-}
-#note2{
-    position: absolute;
-    top: 23vh;
-    right: 55vw;
-}
-#phone{
-    height: 2vh;
-    width: 23vw;
-    position: absolute;
-    top: 34vh;
-    right: 60vw;
-    background: transparent;
-}
-#note3{
-    position: absolute;
-    top: 52vh;
-    right: 11vw;
-}
-#place{
-    height: 2vh;
-    width: 23vw;
-    position: absolute;
-    top: 64vh;
-    right: 16vw;
-    background: transparent;
-}
-#note4{
-    position: absolute;
-    top: 52vh;
-    right: 55vw;
-}
-#job{
-    height: 2vh;
-    width: 23vw;
-    position: absolute;
-    top: 64vh;
-    right: 60vw;
-    background: transparent;
-}
-#toTest{
     position: absolute;
     bottom: 10vh;
     right: 23vh;
@@ -1004,31 +981,110 @@
     border-radius: 17%;
 }
 
-#q1A1{
+#note1 {
+    position: absolute;
+    top: 23vh;
+    right: 11vw;
+    height: 20vh;
+}
+
+#name {
+    height: 2vh;
+    width: 23vw;
+    position: absolute;
+    top: 33vh;
+    right: 16vw;
+    background: transparent;
+}
+
+#note2 {
+    position: absolute;
+    top: 23vh;
+    right: 55vw;
+    height: 20vh;
+}
+
+#phone {
+    height: 2vh;
+    width: 23vw;
+    position: absolute;
+    top: 33vh;
+    right: 60vw;
+    background: transparent;
+}
+
+#note3 {
+    position: absolute;
+    top: 52vh;
+    right: 11vw;
+    height: 20vh;
+}
+
+#place {
+    height: 2vh;
+    width: 23vw;
+    position: absolute;
+    top: 63vh;
+    right: 16vw;
+    background: transparent;
+}
+
+#note4 {
+    position: absolute;
+    top: 52vh;
+    right: 55vw;
+    height: 20vh;
+}
+
+#job {
+    height: 2vh;
+    width: 23vw;
+    position: absolute;
+    top: 63vh;
+    right: 60vw;
+    background: transparent;
+}
+
+#toTest {
+    position: absolute;
+    bottom: 10vh;
+    right: 23vh;
+    font-size: 4vmax;
+    font-family: miriam;
+    color: #0b2c54;
+    border: 9px solid;
+    border-radius: 17%;
+}
+
+#q1A1 {
     position: absolute;
     top: 29vh;
     right: 2vw;
     font-size: 4vmax;
 }
-#q1A2{
+
+#q1A2 {
     position: absolute;
     top: 37vh;
     right: 2vw;
     font-size: 4vmax;
 }
-#q1A3{
+
+#q1A3 {
     position: absolute;
     top: 51vh;
     right: 2vw;
     font-size: 4vmax;
 }
-#q1A4{
+
+#q1A4 {
     position: absolute;
     top: 64vh;
     right: 2vw;
     font-size: 4vmax;
 }
-#haba{
+
+#haba {
     display: none;
     position: absolute;
     bottom: 10vh;
@@ -1039,17 +1095,19 @@
     border: 9px solid;
     border-radius: 17%;
 }
-#headTest{
+
+#headTest {
     position: absolute;
     font-size: 4vmax;
-    top: 10vh;
-    width: 74vw;
+    top: 8vh;
+    width: 80vw;
     left: 50%;
     transform: translate(-50%);
     color: #8fc8e3;
     text-shadow: -6px 1px 3px black;
 }
-.textQ1{
+
+.textQ1 {
     position: absolute;
     top: 17vh;
     font-size: 3.5vmax;
@@ -1057,70 +1115,81 @@
     color: #0b2c54;
     left: 50%;
     transform: translate(-50%);
-    width: 61vw;
+    width: 70vw;
     text-align: center;
 }
-#q2A1{
+
+#q2A1 {
+    position: absolute;
+    top: 29vh;
+    right: 2vw;
+    font-size: 4vmax;
+}
+
+#q2A2 {
+    position: absolute;
+    top: 38vh;
+    right: 2vw;
+    font-size: 4vmax;
+}
+
+#q2A3 {
+    position: absolute;
+    top: 52vh;
+    right: 2vw;
+    font-size: 4vmax;
+}
+
+#q2A4 {
+    position: absolute;
+    top: 66vh;
+    right: 2vw;
+    font-size: 4vmax;
+}
+
+.q3A1 {
     position: absolute;
     top: 31vh;
     right: 2vw;
     font-size: 4vmax;
 }
-#q2A2{
+
+.q3A2 {
     position: absolute;
     top: 41vh;
     right: 2vw;
     font-size: 4vmax;
 }
-#q2A3{
+
+.q3A3 {
     position: absolute;
     top: 51vh;
     right: 2vw;
     font-size: 4vmax;
 }
-#q2A4{
+
+.q3A4 {
     position: absolute;
     top: 62vh;
     right: 2vw;
     font-size: 4vmax;
 }
-.q3A1{
-    position: absolute;
-    top: 31vh;
-    right: 2vw;
-    font-size: 4vmax;
-}
-.q3A2{
-    position: absolute;
-    top: 41vh;
-    right: 2vw;
-    font-size: 4vmax;
-}
-.q3A3{
-    position: absolute;
-    top: 51vh;
-    right: 2vw;
-    font-size: 4vmax;
-}
-.q3A4{
-    position: absolute;
-    top: 62vh;
-    right: 2vw;
-    font-size: 4vmax;
-}
-#date{
+
+#date {
     position: absolute;
     top: 13vh;
     right: 2vw;
     font-size: 4vmax;
 }
-#time{
+
+#time {
     position: absolute;
     top: 22vh;
     right: 2vw;
     font-size: 4vmax;
 }
-#wrong{
+
+#wrong {
     display: none;
     position: absolute;
     top: 21vh;
@@ -1132,7 +1201,8 @@
     width: 65vw;
     text-align: center;
 }
-#right{
+
+#right {
     display: none;
     position: absolute;
     top: 33vh;
@@ -1144,7 +1214,8 @@
     width: 65vw;
     text-align: center;
 }
-#takePic{
+
+#takePic {
     display: none;
     position: absolute;
     top: 48vh;
