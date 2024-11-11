@@ -455,7 +455,7 @@
     position: absolute;
     font-family: miriam;
     font-size: 3vmax;
-    top: 37vh;
+    top: 39vh;
     right: 6vw;
     color: #0b2c54;
     line-height: 1.5;
@@ -475,7 +475,7 @@
     position: absolute;
     top: 23vh;
     right: 4vw;
-    font-size: 3.2vmax;
+    font-size: 3vmax;
     font-family: miriam;
     color: #0b2c54;
 }
@@ -565,7 +565,7 @@
 #must {
     position: absolute;
     top: 54.2vh;
-    right: 5.55vw;
+    right: 7.55vw;
     font-size: 3.2vmax;
     font-family: 'miriam';
     color: #991f24;
@@ -595,7 +595,7 @@
 #exam {
     position: absolute;
     top: 49.1vh;
-    right: 4.5vw;
+    right: 5.5vw;
     font-size: 2.5vmax;
     font-family: 'miriam';
     color: #991f24;
@@ -633,7 +633,7 @@
     position: absolute;
     top: 17vh;
     right: 2.7vw;
-    font-size: 3.2vmax;
+    font-size: 3vmax;
     line-height: 1.2;
     font-family: miriam;
     color: #0b2c54;
@@ -846,7 +846,7 @@
     line-height: 1.2;
     font-family: haim;
     color: #991f24;
-    width: 59vw;
+    width: 65vw;
     left: 50%;
     transform: translate(-50%);
 }
@@ -1061,28 +1061,28 @@
     position: absolute;
     top: 27vh;
     right: 2vw;
-    font-size: 4vmax;
+    font-size: 3.5vmax;
 }
 
 #q1A2 {
     position: absolute;
     top: 35vh;
     right: 2vw;
-    font-size: 4vmax;
+    font-size: 3.5vmax;
 }
 
 #q1A3 {
     position: absolute;
     top: 49vh;
     right: 2vw;
-    font-size: 4vmax;
+    font-size: 3.5vmax;
 }
 
 #q1A4 {
     position: absolute;
     top: 64vh;
     right: 2vw;
-    font-size: 4vmax;
+    font-size: 3.5vmax;
 }
 
 #haba {
@@ -1185,59 +1185,58 @@
 
 #q53 {
     position: absolute;
-    top: 49vh;
+    top: 51vh;
     right: 2vw;
     font-size: 4vmax;
 }
 
 #q54 {
     position: absolute;
-    top: 62vh;
+    top: 65vh;
     right: 2vw;
     font-size: 4vmax;
 }
 #q61 {
     position: absolute;
-    top: 40vh;
+    top: 26vh;
     right: 2vw;
     font-size: 3.5vmax;
 }
 #q62 {
     position: absolute;
-    top: 40vh;
+    top: 38vh;
     right: 2vw;
     font-size: 3.5vmax;
 }
 
 #q63 {
     position: absolute;
-    top: 49vh;
+    top: 54vh;
     right: 2vw;
     font-size: 3.5vmax;
 }
-
-#q74 {
+#q64 {
     position: absolute;
-    top: 62vh;
+    top: 65vh;
     right: 2vw;
     font-size: 3.5vmax;
 }
 #q71 {
     position: absolute;
-    top: 40vh;
+    top: 30vh;
     right: 2vw;
     font-size: 3.5vmax;
 }
 #q72 {
     position: absolute;
-    top: 40vh;
+    top: 37vh;
     right: 2vw;
     font-size: 3.5vmax;
 }
 
 #q73 {
     position: absolute;
-    top: 49vh;
+    top: 53vh;
     right: 2vw;
     font-size: 3.5vmax;
 }
@@ -1248,7 +1247,74 @@
     right: 2vw;
     font-size: 3.5vmax;
 }
+.q81 {
+    position: absolute;
+    top: 34vh;
+    right: 2vw;
+    font-size: 3.5vmax;
+}
+.q82 {
+    position: absolute;
+    top: 45vh;
+    right: 2vw;
+    font-size: 3.5vmax;
+}
 
+.q83 {
+    position: absolute;
+    top: 56vh;
+    right: 2vw;
+    font-size: 3.5vmax;
+}
+
+.q84 {
+    position: absolute;
+    top: 66vh;
+    right: 2vw;
+    font-size: 3.5vmax;
+}
+#textq9{
+    position: absolute;
+    top: 17vh;
+    font-size: 3.5vmax;
+    font-family: miriam;
+    color: #0b2c54;
+    right: 5vw;
+}
+#q91 {
+    position: absolute;
+    top: 34vh;
+    right: 2vw;
+    font-size: 3.5vmax;
+}
+#q92 {
+    position: absolute;
+    top: 40vh;
+    right: 2vw;
+    font-size: 3.5vmax;
+}
+
+#q93 {
+    position: absolute;
+    top: 55vh;
+    right: 2vw;
+    font-size: 3.5vmax;
+}
+
+#q94 {
+    position: absolute;
+    top: 66vh;
+    right: 2vw;
+    font-size: 3.5vmax;
+}
+#textQ12{
+    position: absolute;
+    top: 15vh;
+    font-size: 3.5vmax;
+    font-family: miriam;
+    color: #0b2c54;
+    right: 5vw;
+}
 #date {
     position: absolute;
     top: 13vh;
