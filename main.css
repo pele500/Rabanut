@@ -1424,31 +1424,37 @@
     right: 2vw;
     font-size: 4vmax;
 }
+#q214 {
+    position: absolute;
+    top: 67vh;
+    right: 2vw;
+    font-size: 4vmax;
+}
 #q231 {
     position: absolute;
     top: 31vh;
     right: 2vw;
-    font-size: 4vmax;
+    font-size: 3.5vmax;
 }
 #q232 {
     position: absolute;
     top: 43vh;
     right: 2vw;
-    font-size: 4vmax;
+    font-size: 3.5vmax;
 }
 
 #q233 {
     position: absolute;
     top: 52vh;
     right: 2vw;
-    font-size: 4vmax;
+    font-size: 3.5vmax;
 }
 
 #q234 {
     position: absolute;
     top: 64vh;
     right: 2vw;
-    font-size: 4vmax;
+    font-size: 3.5vmax;
 }
 #q244 {
     position: absolute;
@@ -1458,7 +1464,7 @@
 }
 #q254 {
     position: absolute;
-    top: 71vh;
+    top: 67vh;
     right: 2vw;
     font-size: 4vmax;
 }
