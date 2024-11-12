@@ -595,7 +595,7 @@
 #exam {
     position: absolute;
     top: 49.1vh;
-    right: 4.5vw;
+    right: 5vw;
     font-size: 2.5vmax;
     font-family: 'miriam';
     color: #991f24;
@@ -643,7 +643,7 @@
     position: absolute;
     font-family: miriam;
     font-size: 3vmax;
-    top: 49vh;
+    top: 47vh;
     text-align: center;
     color: #0b2c54;
 }
@@ -1229,7 +1229,7 @@
 }
 #q72 {
     position: absolute;
-    top: 37vh;
+    top: 39vh;
     right: 2vw;
     font-size: 3.2vmax;
 }
@@ -1295,7 +1295,7 @@
 
 #q104 {
     position: absolute;
-    top: 62vh;
+    top: 67vh;
     right: 2vw;
     font-size: 3.2vmax;
 }
@@ -1322,7 +1322,7 @@
 
 #q93 {
     position: absolute;
-    top: 55vh;
+    top: 57vh;
     right: 2vw;
     font-size: 3.5vmax;
 }
@@ -1335,11 +1335,157 @@
 }
 #textQ12{
     position: absolute;
-    top: 15vh;
+    top: 18vh;
     font-size: 3.5vmax;
     font-family: miriam;
     color: #0b2c54;
     right: 5vw;
+}
+#q121 {
+    position: absolute;
+    top: 38vh;
+    right: 2vw;
+    font-size: 4vmax;
+}
+
+#q122 {
+    position: absolute;
+    top: 46vh;
+    right: 2vw;
+    font-size: 4vmax;
+}
+#q143 {
+    position: absolute;
+    top: 60vh;
+    right: 2vw;
+    font-size: 3.5vmax;
+}
+#q151 {
+    position: absolute;
+    top: 31vh;
+    right: 2vw;
+    font-size: 3.5vmax;
+}
+#q152 {
+    position: absolute;
+    top: 42vh;
+    right: 2vw;
+    font-size: 3.5vmax;
+}
+
+#q153 {
+    position: absolute;
+    top: 54vh;
+    right: 2vw;
+    font-size: 3.5vmax;
+}
+
+#q154 {
+    position: absolute;
+    top: 66vh;
+    right: 2vw;
+    font-size: 3.5vmax;
+}
+#q162 {
+    position: absolute;
+    top: 32vh;
+    right: 2vw;
+    font-size: 4vmax;
+}
+#q201 {
+    position: absolute;
+    top: 34vh;
+    right: 2vw;
+    font-size: 4vmax;
+}
+#q202 {
+    position: absolute;
+    top: 42vh;
+    right: 2vw;
+    font-size: 4vmax;
+}
+
+#q203 {
+    position: absolute;
+    top: 54vh;
+    right: 2vw;
+    font-size: 4vmax;
+}
+
+#q204 {
+    position: absolute;
+    top: 64vh;
+    right: 2vw;
+    font-size: 4vmax;
+}
+#q213 {
+    position: absolute;
+    top: 51vh;
+    right: 2vw;
+    font-size: 4vmax;
+}
+#q231 {
+    position: absolute;
+    top: 31vh;
+    right: 2vw;
+    font-size: 4vmax;
+}
+#q232 {
+    position: absolute;
+    top: 43vh;
+    right: 2vw;
+    font-size: 4vmax;
+}
+
+#q233 {
+    position: absolute;
+    top: 52vh;
+    right: 2vw;
+    font-size: 4vmax;
+}
+
+#q234 {
+    position: absolute;
+    top: 64vh;
+    right: 2vw;
+    font-size: 4vmax;
+}
+#q244 {
+    position: absolute;
+    top: 70vh;
+    right: 2vw;
+    font-size: 4vmax;
+}
+#q254 {
+    position: absolute;
+    top: 71vh;
+    right: 2vw;
+    font-size: 4vmax;
+}
+#q261 {
+    position: absolute;
+    top: 34vh;
+    right: 2vw;
+    font-size: 3vmax;
+}
+
+#q262 {
+    position: absolute;
+    top: 45vh;
+    right: 2vw;
+    font-size: 3vmax;
+}
+#q263 {
+    position: absolute;
+    top: 56vh;
+    right: 2vw;
+    font-size: 3vmax;
+}
+#q264 {
+    position: absolute;
+    top: 66vh;
+    right: 2vw;
+    font-size: 3vmax;
 }
 #date {
     position: absolute;
