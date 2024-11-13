@@ -1388,7 +1388,7 @@
 }
 #q162 {
     position: absolute;
-    top: 32vh;
+    top: 40vh;
     right: 2vw;
     font-size: 4vmax;
 }
@@ -1452,7 +1452,7 @@
 
 #q234 {
     position: absolute;
-    top: 64vh;
+    top: 66vh;
     right: 2vw;
     font-size: 3.5vmax;
 }
@@ -1541,4 +1541,1457 @@
     font-size: 3.5vmax;
     font-family: miriam;
     color: #0b2c54;
+}
+@media screen and (max-heigt:758px) {
+    #textP2 {
+        position: absolute;
+        font-family: miriam;
+        font-size: 3vmax;
+        top: 19vh;
+        width: 83vw;
+        right: 7vw;
+        text-align: center;
+        color: #0b2c54;
+        line-height: 1.5;
+    }
+    
+    #goodluck {
+        position: absolute;
+        font-family: 'haim';
+        color: #991f24;
+        bottom: 12vh;
+        right: 30vw;
+        font-size: 5vmax;
+    }
+    
+    #textP3 {
+        position: absolute;
+        font-family: miriam;
+        font-size: 3vmax;
+        top: 20vh;
+        width: 83vw;
+        right: 7vw;
+        text-align: center;
+        color: #0b2c54;
+        line-height: 1.5;
+    }
+    
+    #options {
+        position: absolute;
+        bottom: -1vh;
+        right: 21vw;
+        height: 23vh;
+    }
+    
+    #puzzle {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        top: 41vh;
+        height: 39vh;
+    }
+    
+    #hand {
+        position: absolute;
+        height: 14vh;
+        top: 12vh;
+        left: 13vw;
+    }
+    
+    #textP4 {
+        position: absolute;
+        font-family: miriam;
+        font-size: 4vmax;
+        top: 21vh;
+        width: 82vw;
+        right: 10vw;
+        text-align: center;
+        color: #0b2c54;
+        line-height: 1.5;
+    }
+    
+    #generlD {
+        position: absolute;
+        height: 18vh;
+        width: 32vw;
+        bottom: 40vh;
+        right: 16vw;
+    }
+    
+    .pieces {
+        background-image: url(./assets/pictures/bg2.png);
+        background-color: #a0cbdf;
+        width: 100vw;
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        right: 0vw;
+        top: 0vh;
+        z-index: -1;
+    }
+    
+    .header {
+        position: absolute;
+        top: 10vh;
+        right: 21%;
+        font-size: 14.5vmax;
+        font-family: haim;
+        color: aliceblue;
+        text-shadow: -2px -1px 3px black;
+    }
+    
+    #textg2 {
+        position: absolute;
+        font-family: miriam;
+        font-size: 2.8vmax;
+        top: 21vh;
+        width: 83vw;
+        right: 7vw;
+        text-align: center;
+        color: #0b2c54;
+        line-height: 1.5;
+    }
+    
+    #soliders {
+        position: absolute;
+        bottom: 2vh;
+        right: 4vh;
+        height: 17vh;
+        z-index: -1;
+    }
+    
+    #textg3 {
+        position: absolute;
+        font-family: miriam;
+        font-size: 3vmax;
+        top: 17vh;
+        text-align: center;
+        color: #0b2c54;
+        line-height: 1.5;
+    }
+    
+    #listH {
+        position: absolute;
+        top: 34vh;
+        right: 3vw;
+        font-size: 3.5vmax;
+        font-family: haim;
+        color: #991f24;
+    }
+    
+    #listG3 {
+        position: absolute;
+        top: 40vh;
+        right: 3vw;
+        font-size: 3.3vmax;
+        font-family: 'miriam';
+        line-height: 1.2;
+        color: #0b2c54;
+    }
+    
+    #botTextg3 {
+        position: absolute;
+        bottom: 19vh;
+        right: 3vw;
+        text-align: center;
+        font-size: 3vmax;
+        font-family: haim;
+        color: #991f24;
+    }
+    
+    #textg4 {
+        position: absolute;
+        font-family: miriam;
+        font-size: 3.2vmax;
+        top: 23vh;
+        text-align: center;
+        color: #0b2c54;
+        line-height: 1.5;
+    }
+    
+    #t1 {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        top: 24vh;
+        text-align: center;
+        font-size: 3vmax;
+        font-family: haim;
+        color: #991f24;
+    }
+    
+    #t2 {
+        position: absolute;
+        font-family: miriam;
+        font-size: 3.2vmax;
+        left: 50%;
+        transform: translate(-50%);
+        top: 27vh;
+        color: #0b2c54;
+        line-height: 1.5;
+    }
+    
+    #t3 {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        top: 34vh;
+        text-align: center;
+        font-size: 3vmax;
+        font-family: haim;
+        color: #991f24;
+    }
+    
+    #t4 {
+        position: absolute;
+        font-family: miriam;
+        font-size: 2.7vmax;
+        top: 39vh;
+        color: #0b2c54;
+        line-height: 1.5;
+        text-align: center;
+    }
+    
+    #t5 {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        top: 56vh;
+        text-align: center;
+        font-size: 3vmax;
+        font-family: haim;
+        color: #991f24;
+    }
+    
+    #t6 {
+        position: absolute;
+        font-family: miriam;
+        font-size: 2.7vmax;
+        top: 61vh;
+        color: #0b2c54;
+        line-height: 1.5;
+        text-align: center;
+    }
+    
+    #textg6 {
+        position: absolute;
+        font-family: miriam;
+        font-size: 3vmax;
+        top: 19vh;
+        text-align: center;
+        color: #0b2c54;
+        line-height: 1.5;
+    }
+    
+    #textg7 {
+        position: absolute;
+        font-family: miriam;
+        font-size: 2.8vmax;
+        top: 17vh;
+        text-align: center;
+        color: #0b2c54;
+        line-height: 1.5;
+    }
+    
+    #textg8 {
+        position: absolute;
+        font-family: miriam;
+        font-size: 3vmax;
+        top: 24vh;
+        text-align: center;
+        color: #0b2c54;
+        line-height: 1.5;
+    }
+    
+    #nohalD {
+        position: absolute;
+        height: 18vh;
+        width: 32vw;
+        bottom: 40vh;
+        right: 52vw;
+    }
+    
+    #headn2 {
+        position: absolute;
+        top: 15vh;
+        right: 4vw;
+        font-size: 3vmax;
+        font-family: haim;
+        color: #991f24;
+    }
+    
+    #textn2 {
+        position: absolute;
+        font-family: miriam;
+        font-size: 2.8vmax;
+        top: 19vh;
+        text-align: center;
+        color: #0b2c54;
+        line-height: 1.5;
+    }
+    
+    #listH2 {
+        position: absolute;
+        top: 53vh;
+        right: 3vw;
+        font-size: 3.2vmax;
+        font-family: haim;
+        color: #991f24;
+    }
+    
+    #listN2 {
+        position: absolute;
+        top: 58vh;
+        font-size: 2.8vmax;
+        font-family: 'miriam';
+        line-height: 0.8;
+        color: #0b2c54;
+    }
+    
+    #textn3 {
+        position: absolute;
+        font-family: miriam;
+        font-size: 3.2vmax;
+        top: 23vh;
+        text-align: center;
+        color: #0b2c54;
+        line-height: 1.5;
+    }
+    
+    #listH4 {
+        position: absolute;
+        font-family: miriam;
+        font-size: 3.2vmax;
+        top: 17vh;
+        right: 6vw;
+        color: #0b2c54;
+        line-height: 1.5;
+    }
+    
+    #listN4 {
+        position: absolute;
+        top: 46vh;
+        right: 6vw;
+        font-size: 3.5vmax;
+        font-family: miriam;
+        line-height: 0.8;
+        color: #0b2c54;
+    }
+    
+    #textn4 {
+        position: absolute;
+        top: 61vh;
+        right: 3vw;
+        font-size: 3vmax;
+        font-family: haim;
+        color: #991f24;
+    }
+    
+    #listH5 {
+        position: absolute;
+        font-family: miriam;
+        font-size: 3vmax;
+        top: 39vh;
+        right: 6vw;
+        color: #0b2c54;
+        line-height: 1.5;
+    }
+    
+    #listh5 {
+        position: absolute;
+        font-family: miriam;
+        font-size: 3vmax;
+        top: 57vh;
+        right: 6vw;
+        color: #0b2c54;
+        line-height: 1.5;
+    }
+    
+    #listN5 {
+        position: absolute;
+        top: 23vh;
+        right: 4vw;
+        font-size: 3vmax;
+        font-family: miriam;
+        color: #0b2c54;
+    }
+    
+    #textn5 {
+        position: absolute;
+        top: 15vh;
+        right: 7vw;
+        font-size: 3.2vmax;
+        font-family: haim;
+        color: #991f24;
+    }
+    
+    #example {
+        position: absolute;
+        top: 57.3vh;
+        right: 6vw;
+        font-size: 3vmax;
+        font-family: 'miriam';
+        color: #991f24;
+        z-index: 1;
+        text-decoration: underline;
+    }
+    
+    #careD {
+        position: absolute;
+        height: 18vh;
+        width: 32vw;
+        bottom: 21vh;
+        right: 17vw;
+    }
+    
+    #listC2 {
+        position: absolute;
+        top: 21vh;
+        right: 7vw;
+        font-size: 3.4vmax;
+        line-height: 1.8;
+        font-family: miriam;
+        color: #0b2c54;
+    }
+    
+    #header {
+        position: absolute;
+        top: 10vh;
+        right: 18%;
+        font-size: 14.5vmax;
+        font-family: haim;
+        color: aliceblue;
+        text-shadow: -2px -1px 3px black;
+    }
+    
+    #checkList {
+        position: absolute;
+        height: 27vh;
+        bottom: 14vh;
+        left: 5vw;
+    }
+    
+    #textc3 {
+        position: absolute;
+        font-family: miriam;
+        font-size: 3vmax;
+        top: 23vh;
+        text-align: center;
+        color: #0b2c54;
+    }
+    
+    #textBc3 {
+        position: absolute;
+        font-family: miriam;
+        font-size: 3.2vmax;
+        top: 54vh;
+        text-align: center;
+        color: #0b2c54;
+        line-height: 1.5;
+    }
+    
+    #mirror {
+        position: absolute;
+        height: 27vh;
+        bottom: 0vh;
+        left: 5vw;
+        z-index: -1;
+    }
+    
+    #must {
+        position: absolute;
+        top: 54.2vh;
+        right: 6.55vw;
+        font-size: 3.2vmax;
+        font-family: 'miriam';
+        color: #991f24;
+        z-index: 1;
+        text-decoration: underline;
+    }
+    
+    #textc4 {
+        position: absolute;
+        font-family: miriam;
+        font-size: 2.5vmax;
+        top: 23vh;
+        text-align: center;
+        color: #0b2c54;
+    }
+    
+    #textBc4 {
+        position: absolute;
+        font-family: miriam;
+        font-size: 2.5vmax;
+        top: 49vh;
+        text-align: center;
+        color: #0b2c54;
+        line-height: 1.5;
+    }
+    
+    #exam {
+        position: absolute;
+        top: 49.1vh;
+        right: 5vw;
+        font-size: 2.5vmax;
+        font-family: 'miriam';
+        color: #991f24;
+        z-index: 1;
+        text-decoration: underline;
+    }
+    
+    #textc5 {
+        position: absolute;
+        font-family: miriam;
+        font-size: 3vmax;
+        top: 25vh;
+        text-align: center;
+        color: #0b2c54;
+    }
+    
+    #pic9 {
+        position: absolute;
+        z-index: -1;
+        height: 36vh;
+        bottom: 5vh;
+        right: 55vw;
+    }
+    
+    #textc6 {
+        position: absolute;
+        top: 14vh;
+        right: 7vw;
+        font-size: 3.5vmax;
+        font-family: haim;
+        color: #991f24;
+    }
+    
+    #listC6 {
+        position: absolute;
+        top: 17vh;
+        right: 2.7vw;
+        font-size: 3vmax;
+        line-height: 1.2;
+        font-family: miriam;
+        color: #0b2c54;
+    }
+    
+    #textBc6 {
+        position: absolute;
+        font-family: miriam;
+        font-size: 3vmax;
+        top: 47vh;
+        text-align: center;
+        color: #0b2c54;
+    }
+    
+    #textc7 {
+        position: absolute;
+        top: 21vh;
+        right: 3vw;
+        font-size: 3.7vmax;
+        line-height: 1.2;
+        font-family: miriam;
+        color: #0b2c54;
+    }
+    
+    #listC7 {
+        position: absolute;
+        top: 36vh;
+        right: 4vw;
+        font-size: 3.4vmax;
+        line-height: 1.2;
+        font-family: miriam;
+        color: #0b2c54;
+    }
+    
+    #pic13 {
+        position: absolute;
+        height: 16vh;
+        width: 79vw;
+        bottom: 22vh;
+        right: 6vw;
+    }
+    
+    #titlec10 {
+        font-size: 4.5vmax;
+    }
+    
+    #textc8 {
+        position: absolute;
+        top: 23vh;
+        right: 2.7vw;
+        font-size: 2.5vmax;
+        line-height: 1.2;
+        font-family: miriam;
+        color: #0b2c54;
+    }
+    
+    #report {
+        position: absolute;
+        height: 28vh;
+        bottom: 31vh;
+        right: 15vw;
+        z-index: -1;
+    }
+    
+    #textBc8 {
+        position: absolute;
+        font-family: miriam;
+        font-size: 3vmax;
+        top: 67vh;
+        text-align: center;
+        color: #0b2c54;
+    }
+    
+    #textc9 {
+        position: absolute;
+        top: 23vh;
+        right: 3vw;
+        font-size: 3vmax;
+        line-height: 1.2;
+        font-family: miriam;
+        color: #0b2c54;
+    }
+    
+    #pic14 {
+        position: absolute;
+        height: 25vh;
+        bottom: 17vh;
+        right: 14vw;
+    }
+    
+    #t1n {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        top: 14vh;
+        text-align: center;
+        font-size: 3.5vmax;
+        font-family: haim;
+        color: #991f24;
+    }
+    
+    #t2n {
+        position: absolute;
+        font-family: miriam;
+        font-size: 3.2vmax;
+        left: 50%;
+        transform: translate(-50%);
+        top: 19vh;
+        color: #0b2c54;
+        line-height: 1.5;
+        width: 88vw;
+        text-align: center;
+    }
+    
+    #t3n {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        top: 34vh;
+        text-align: center;
+        font-size: 3.5vmax;
+        font-family: haim;
+        color: #991f24;
+    }
+    
+    #t4n {
+        position: absolute;
+        font-family: miriam;
+        font-size: 3.2vmax;
+        top: 39vh;
+        color: #0b2c54;
+        line-height: 1.5;
+        text-align: center;
+    }
+    
+    #t5n {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        top: 49vh;
+        text-align: center;
+        font-size: 3.2vmax;
+        font-family: haim;
+        color: #991f24;
+    }
+    
+    #t6n {
+        position: absolute;
+        font-family: miriam;
+        font-size: 3.5vmax;
+        top: 52vh;
+        color: #0b2c54;
+        line-height: 1.5;
+        text-align: center;
+    }
+    
+    #t7n {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        top: 63vh;
+        text-align: center;
+        font-size: 3.5vmax;
+        font-family: haim;
+        color: #991f24;
+    }
+    
+    #t8n {
+        position: absolute;
+        font-family: miriam;
+        font-size: 3.2vmax;
+        top: 67vh;
+        color: #0b2c54;
+        line-height: 1.5;
+        text-align: center;
+    }
+    
+    #searchD {
+        position: absolute;
+        height: 18vh;
+        width: 32vw;
+        bottom: 21vh;
+        right: 52vw;
+    }
+    
+    #header2 {
+        position: absolute;
+        top: 10vh;
+        right: 10%;
+        font-size: 14.5vmax;
+        font-family: haim;
+        color: aliceblue;
+        text-shadow: -2px -1px 3px black;
+    }
+    
+    #texts2 {
+        position: absolute;
+        top: 23vh;
+        right: 3vw;
+        font-size: 3vmax;
+        line-height: 1.2;
+        font-family: miriam;
+        color: #0b2c54;
+    }
+    
+    #heads3 {
+        position: absolute;
+        top: 19vh;
+        font-size: 4vmax;
+        line-height: 1.2;
+        font-family: haim;
+        color: #991f24;
+        width: 65vw;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    
+    #texts3 {
+        position: absolute;
+        top: 29vh;
+        right: 1vw;
+        font-size: 4vmax;
+        line-height: 1.2;
+        font-family: miriam;
+        color: #0b2c54;
+        text-align: center;
+    }
+    
+    #look {
+        position: absolute;
+        height: 15vh;
+        bottom: 18vh;
+        right: 6vw;
+        z-index: -1;
+    }
+    
+    #lookG {
+        position: absolute;
+        height: 17vh;
+        bottom: 18vh;
+        right: 62vw;
+        z-index: -1;
+    }
+    
+    #heads4 {
+        position: absolute;
+        top: 23vh;
+        right: 8vw;
+        font-size: 5vmax;
+        line-height: 1.2;
+        font-family: haim;
+        color: #991f24;
+    }
+    
+    #texts4 {
+        position: absolute;
+        top: 30vh;
+        right: 1vw;
+        font-size: 4.5vmax;
+        line-height: 1.2;
+        font-family: miriam;
+        color: #0b2c54;
+        text-align: center;
+    }
+    
+    #graph {
+        position: absolute;
+        height: 27vh;
+        bottom: 13vh;
+        right: 21vw;
+        z-index: -1;
+    }
+    
+    #heads5 {
+        position: absolute;
+        top: 23vh;
+        right: 8vw;
+        font-size: 5vmax;
+        line-height: 1.2;
+        font-family: haim;
+        color: #991f24;
+    }
+    
+    #texts5 {
+        position: absolute;
+        top: 30vh;
+        right: 1vw;
+        font-size: 4.5vmax;
+        line-height: 1.2;
+        font-family: miriam;
+        color: #0b2c54;
+        text-align: center;
+    }
+    
+    #circles {
+        position: absolute;
+        height: 27vh;
+        bottom: 13vh;
+        right: 21vw;
+        z-index: -1;
+    }
+    
+    #headT {
+        position: absolute;
+        top: 10vh;
+        right: 4vw;
+        font-size: 4vmax;
+        line-height: 1.2;
+        font-family: haim;
+        color: #991f24;
+    }
+    
+    @keyframes infoTest {
+        from {
+            font-size: 0.1vmax;
+            opacity: 0;
+        }
+    
+        to {
+            font-size: 2.7vmax;
+            opacity: 1;
+        }
+    }
+    
+    #textT {
+        position: absolute;
+        top: 26vh;
+        font-size: 2.7vmax;
+        line-height: 1.2;
+        font-family: miriam;
+        color: #0b2c54;
+        text-align: center;
+        animation: infoTest 5s linear;
+    }
+    
+    #hamsec {
+        display: none;
+        position: absolute;
+        bottom: 15vh;
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 4vmax;
+        font-family: miriam;
+        color: #0b2c54;
+        border: 9px solid;
+        border-radius: 17%;
+    }
+    
+    #note1 {
+        position: absolute;
+        top: 23vh;
+        right: 11vw;
+        height: 20vh;
+    }
+    
+    #name {
+        height: 2vh;
+        width: 23vw;
+        position: absolute;
+        top: 33vh;
+        right: 16vw;
+        background: transparent;
+    }
+    
+    #note2 {
+        position: absolute;
+        top: 23vh;
+        right: 55vw;
+        height: 20vh;
+    }
+    
+    #phone {
+        height: 2vh;
+        width: 23vw;
+        position: absolute;
+        top: 33vh;
+        right: 60vw;
+        background: transparent;
+    }
+    
+    #note3 {
+        position: absolute;
+        top: 52vh;
+        right: 11vw;
+        height: 20vh;
+    }
+    
+    #place {
+        height: 2vh;
+        width: 23vw;
+        position: absolute;
+        top: 63vh;
+        right: 16vw;
+        background: transparent;
+    }
+    
+    #note4 {
+        position: absolute;
+        top: 52vh;
+        right: 55vw;
+        height: 20vh;
+    }
+    
+    #job {
+        height: 2vh;
+        width: 23vw;
+        position: absolute;
+        top: 63vh;
+        right: 60vw;
+        background: transparent;
+    }
+    
+    #toTest {
+        position: absolute;
+        bottom: 10vh;
+        right: 23vh;
+        font-size: 4vmax;
+        font-family: miriam;
+        color: #0b2c54;
+        border: 9px solid;
+        border-radius: 17%;
+    }
+    
+    #q1A1 {
+        position: absolute;
+        top: 27vh;
+        right: 2vw;
+        font-size: 3.5vmax;
+    }
+    
+    #q1A2 {
+        position: absolute;
+        top: 35vh;
+        right: 2vw;
+        font-size: 3.5vmax;
+    }
+    
+    #q1A3 {
+        position: absolute;
+        top: 49vh;
+        right: 2vw;
+        font-size: 3.5vmax;
+    }
+    
+    #q1A4 {
+        position: absolute;
+        top: 64vh;
+        right: 2vw;
+        font-size: 3.5vmax;
+    }
+    
+    #haba {
+        display: none;
+        position: absolute;
+        bottom: 10vh;
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 4vmax;
+        font-family: miriam;
+        color: #0b2c54;
+        border: 9px solid;
+        border-radius: 17%;
+    }
+    
+    #headTest {
+        position: absolute;
+        font-size: 4vmax;
+        top: 8vh;
+        width: 80vw;
+        left: 50%;
+        transform: translate(-50%);
+        color: #8fc8e3;
+        text-shadow: -6px 1px 3px black;
+    }
+    
+    .textQ1 {
+        position: absolute;
+        top: 17vh;
+        font-size: 3.5vmax;
+        font-family: miriam;
+        color: #0b2c54;
+        left: 50%;
+        transform: translate(-50%);
+        width: 70vw;
+        text-align: center;
+    }
+    
+    #q2A1 {
+        position: absolute;
+        top: 29vh;
+        right: 2vw;
+        font-size: 4vmax;
+    }
+    
+    #q2A2 {
+        position: absolute;
+        top: 38vh;
+        right: 2vw;
+        font-size: 4vmax;
+    }
+    
+    #q2A3 {
+        position: absolute;
+        top: 52vh;
+        right: 2vw;
+        font-size: 4vmax;
+    }
+    
+    #q2A4 {
+        position: absolute;
+        top: 66vh;
+        right: 2vw;
+        font-size: 4vmax;
+    }
+    
+    .q3A1 {
+        position: absolute;
+        top: 31vh;
+        right: 2vw;
+        font-size: 4vmax;
+    }
+    
+    .q3A2 {
+        position: absolute;
+        top: 43vh;
+        right: 2vw;
+        font-size: 4vmax;
+    }
+    
+    .q3A3 {
+        position: absolute;
+        top: 54vh;
+        right: 2vw;
+        font-size: 4vmax;
+    }
+    
+    .q3A4 {
+        position: absolute;
+        top: 62vh;
+        right: 2vw;
+        font-size: 4vmax;
+    }
+    #q52 {
+        position: absolute;
+        top: 40vh;
+        right: 2vw;
+        font-size: 4vmax;
+    }
+    
+    #q53 {
+        position: absolute;
+        top: 51vh;
+        right: 2vw;
+        font-size: 4vmax;
+    }
+    
+    #q54 {
+        position: absolute;
+        top: 65vh;
+        right: 2vw;
+        font-size: 4vmax;
+    }
+    #q61 {
+        position: absolute;
+        top: 26vh;
+        right: 2vw;
+        font-size: 3.2vmax;
+    }
+    #q62 {
+        position: absolute;
+        top: 38vh;
+        right: 2vw;
+        font-size: 3.2vmax;
+    }
+    
+    #q63 {
+        position: absolute;
+        top: 54vh;
+        right: 2vw;
+        font-size: 3.2vmax;
+    }
+    #q64 {
+        position: absolute;
+        top: 65vh;
+        right: 2vw;
+        font-size: 3.2vmax;
+    }
+    #q71 {
+        position: absolute;
+        top: 30vh;
+        right: 2vw;
+        font-size: 3.2vmax;
+    }
+    #q72 {
+        position: absolute;
+        top: 39vh;
+        right: 2vw;
+        font-size: 3.2vmax;
+    }
+    
+    #q73 {
+        position: absolute;
+        top: 53vh;
+        right: 2vw;
+        font-size: 3.2vmax;
+    }
+    
+    #q74 {
+        position: absolute;
+        top: 62vh;
+        right: 2vw;
+        font-size: 3.2vmax;
+    }
+    .q81 {
+        position: absolute;
+        top: 34vh;
+        right: 2vw;
+        font-size: 3.5vmax;
+    }
+    .q82 {
+        position: absolute;
+        top: 45vh;
+        right: 2vw;
+        font-size: 3.5vmax;
+    }
+    
+    .q83 {
+        position: absolute;
+        top: 56vh;
+        right: 2vw;
+        font-size: 3.5vmax;
+    }
+    
+    .q84 {
+        position: absolute;
+        top: 66vh;
+        right: 2vw;
+        font-size: 3.5vmax;
+    }
+    #q101 {
+        position: absolute;
+        top: 30vh;
+        right: 2vw;
+        font-size: 3.2vmax;
+    }
+    #q102 {
+        position: absolute;
+        top: 37vh;
+        right: 2vw;
+        font-size: 3.2vmax;
+    }
+    
+    #q103 {
+        position: absolute;
+        top: 53vh;
+        right: 2vw;
+        font-size: 3.2vmax;
+    }
+    
+    #q104 {
+        position: absolute;
+        top: 67vh;
+        right: 2vw;
+        font-size: 3.2vmax;
+    }
+    #textq9{
+        position: absolute;
+        top: 17vh;
+        font-size: 3.5vmax;
+        font-family: miriam;
+        color: #0b2c54;
+        right: 5vw;
+    }
+    #q91 {
+        position: absolute;
+        top: 34vh;
+        right: 2vw;
+        font-size: 3.5vmax;
+    }
+    #q92 {
+        position: absolute;
+        top: 40vh;
+        right: 2vw;
+        font-size: 3.5vmax;
+    }
+    
+    #q93 {
+        position: absolute;
+        top: 57vh;
+        right: 2vw;
+        font-size: 3.5vmax;
+    }
+    
+    #q94 {
+        position: absolute;
+        top: 66vh;
+        right: 2vw;
+        font-size: 3.5vmax;
+    }
+    #textQ12{
+        position: absolute;
+        top: 18vh;
+        font-size: 3.5vmax;
+        font-family: miriam;
+        color: #0b2c54;
+        right: 5vw;
+    }
+    #q121 {
+        position: absolute;
+        top: 38vh;
+        right: 2vw;
+        font-size: 4vmax;
+    }
+    
+    #q122 {
+        position: absolute;
+        top: 46vh;
+        right: 2vw;
+        font-size: 4vmax;
+    }
+    #q143 {
+        position: absolute;
+        top: 60vh;
+        right: 2vw;
+        font-size: 3.5vmax;
+    }
+    #q151 {
+        position: absolute;
+        top: 31vh;
+        right: 2vw;
+        font-size: 3.5vmax;
+    }
+    #q152 {
+        position: absolute;
+        top: 42vh;
+        right: 2vw;
+        font-size: 3.5vmax;
+    }
+    
+    #q153 {
+        position: absolute;
+        top: 54vh;
+        right: 2vw;
+        font-size: 3.5vmax;
+    }
+    
+    #q154 {
+        position: absolute;
+        top: 66vh;
+        right: 2vw;
+        font-size: 3.5vmax;
+    }
+    #q162 {
+        position: absolute;
+        top: 40vh;
+        right: 2vw;
+        font-size: 4vmax;
+    }
+    #q201 {
+        position: absolute;
+        top: 34vh;
+        right: 2vw;
+        font-size: 4vmax;
+    }
+    #q202 {
+        position: absolute;
+        top: 42vh;
+        right: 2vw;
+        font-size: 4vmax;
+    }
+    
+    #q203 {
+        position: absolute;
+        top: 54vh;
+        right: 2vw;
+        font-size: 4vmax;
+    }
+    
+    #q204 {
+        position: absolute;
+        top: 64vh;
+        right: 2vw;
+        font-size: 4vmax;
+    }
+    #q213 {
+        position: absolute;
+        top: 51vh;
+        right: 2vw;
+        font-size: 4vmax;
+    }
+    #q214 {
+        position: absolute;
+        top: 67vh;
+        right: 2vw;
+        font-size: 4vmax;
+    }
+    #q231 {
+        position: absolute;
+        top: 31vh;
+        right: 2vw;
+        font-size: 3.5vmax;
+    }
+    #q232 {
+        position: absolute;
+        top: 43vh;
+        right: 2vw;
+        font-size: 3.5vmax;
+    }
+    
+    #q233 {
+        position: absolute;
+        top: 52vh;
+        right: 2vw;
+        font-size: 3.5vmax;
+    }
+    
+    #q234 {
+        position: absolute;
+        top: 66vh;
+        right: 2vw;
+        font-size: 3.5vmax;
+    }
+    #q244 {
+        position: absolute;
+        top: 70vh;
+        right: 2vw;
+        font-size: 4vmax;
+    }
+    #q254 {
+        position: absolute;
+        top: 67vh;
+        right: 2vw;
+        font-size: 4vmax;
+    }
+    #q261 {
+        position: absolute;
+        top: 34vh;
+        right: 2vw;
+        font-size: 3vmax;
+    }
+    
+    #q262 {
+        position: absolute;
+        top: 45vh;
+        right: 2vw;
+        font-size: 3vmax;
+    }
+    #q263 {
+        position: absolute;
+        top: 56vh;
+        right: 2vw;
+        font-size: 3vmax;
+    }
+    #q264 {
+        position: absolute;
+        top: 66vh;
+        right: 2vw;
+        font-size: 3vmax;
+    }
+    #date {
+        position: absolute;
+        top: 13vh;
+        right: 2vw;
+        font-size: 4vmax;
+    }
+    
+    #time {
+        position: absolute;
+        top: 22vh;
+        right: 2vw;
+        font-size: 4vmax;
+    }
+    
+    #wrong {
+        display: none;
+        position: absolute;
+        top: 21vh;
+        font-size: 3.5vmax;
+        font-family: miriam;
+        color: #0b2c54;
+        left: 50%;
+        transform: translate(-50%);
+        width: 65vw;
+        text-align: center;
+    }
+    
+    #right {
+        display: none;
+        position: absolute;
+        top: 33vh;
+        font-size: 3.5vmax;
+        font-family: miriam;
+        color: #0b2c54;
+        left: 50%;
+        transform: translate(-50%);
+        width: 65vw;
+        text-align: center;
+    }
+    
+    #takePic {
+        display: none;
+        position: absolute;
+        top: 48vh;
+        right: 5vw;
+        font-size: 3.5vmax;
+        font-family: miriam;
+        color: #0b2c54;
+    }
+}
+@media screen and (max-heigt:664px){
+    #name {
+        width: 18vw;
+    }
+    #phone {
+        width: 18vw;
+    }
+    #place {
+        width: 18vw;
+    }
+    #job {
+        width: 18vw;
+    }
 }
