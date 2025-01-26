@@ -2994,4 +2994,13 @@
     #job {
         width: 18vw;
     }
+    #textc4 {
+    font-size: 2vmax;
+}
+    #textBc4 {
+    font-size: 2.3vmax;
+}
+    #exam {
+        display:none;
+}
 }
