@@ -4,6 +4,7 @@ let careT = false;
 let searchT = false;
 let second = true;
 let wrongQ = [];
+let wrong = [];
 
 window.addEventListener("load", (event) => {
     document.getElementById('next').addEventListener('click', Page2);
@@ -444,6 +445,7 @@ const question2 = () => {
         if (!wrongQ.includes('q1')){
             wrongQ.push('q1');
         }
+        wrong.push('מהו קפ"ק 1 בפלס"ם');
     }
     document.getElementById('haba').removeEventListener('click', question2);
     document.getElementById('question1').style.display = 'none';
@@ -455,6 +457,7 @@ const question3 = () => {
         if (!wrongQ.includes('q2')){
             wrongQ.push('q2');
         }
+        wrong.push('תחת פיקודו של מי נמצאת מחלקת הרבנות');
     }
     document.getElementById('haba').removeEventListener('click', question3);
     document.getElementById('question2').style.display = 'none';
@@ -466,6 +469,7 @@ const question4 = () => {
         if (!wrongQ.includes('q3')){
             wrongQ.push('q3');
         }
+        wrong.push('מהו מיקום מחלקת הרבנות');
     }
     document.getElementById('haba').removeEventListener('click', question4);
     document.getElementById('question3').style.display = 'none';
@@ -477,6 +481,7 @@ const question5 = () => {
         if (!wrongQ.includes('q4')){
             wrongQ.push('q4');
         }
+        wrong.push('מה תפקידו של נאמן רבנות');
     }
     document.getElementById('haba').removeEventListener('click', question5);
     document.getElementById('question4').style.display = 'none';
@@ -488,6 +493,7 @@ const question6 = () => {
         if (!wrongQ.includes('q5')){
             wrongQ.push('q5');
         }
+        wrong.push('מהי נקודת שחלוף');
     }
     document.getElementById('haba').removeEventListener('click', question6);
     document.getElementById('question5').style.display = 'none';
@@ -499,6 +505,7 @@ const question7 = () => {
         if (!wrongQ.includes('q6')){
             wrongQ.push('q6');
         }
+        wrong.push('מהם נוה"ק וניהו"ק');
     }
     document.getElementById('haba').removeEventListener('click', question7);
     document.getElementById('question6').style.display = 'none';
@@ -510,6 +517,7 @@ const question8 = () => {
         if (!wrongQ.includes('q7')){
             wrongQ.push('q7');
         }
+        wrong.push('מהו ההבדל בין נספח לסעיף');
     }
     document.getElementById('haba').removeEventListener('click', question8);
     document.getElementById('question7').style.display = 'none';
@@ -521,6 +529,7 @@ const question9 = () => {
         if (!wrongQ.includes('q8')){
             wrongQ.push('q8');
         }
+        wrong.push('מהו חלק "דגשים מקצועיים" בסעיף הרבנות');
     }
     document.getElementById('haba').removeEventListener('click', question9);
     document.getElementById('question8').style.display = 'none';
