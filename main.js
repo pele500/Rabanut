@@ -541,6 +541,7 @@ const question10 = () => {
         if (!wrongQ.includes('q9')){
             wrongQ.push('q9');
         }
+        wrong.push('מה הפתרון כאשר יש צורך בדמות פיקודית לאירוע חללים נוסף');
     }
     document.getElementById('haba').removeEventListener('click', question10);
     document.getElementById('question9').style.display = 'none';
@@ -552,6 +553,7 @@ const question11 = () => {
         if (!wrongQ.includes('q10')){
             wrongQ.push('q10');
         }
+        wrong.push('באילו מקרים רב הגדוד מטפל בחללי אויב');
     }
     document.getElementById('haba').removeEventListener('click', question11);
     document.getElementById('question10').style.display = 'none';
@@ -563,6 +565,7 @@ const question12 = () => {
         if (!wrongQ.includes('q11')){
             wrongQ.push('q11');
         }
+        wrong.push('מי מספק לרב הגדוד את תספיקי הדת');
     }
     document.getElementById('haba').removeEventListener('click', question12);
     document.getElementById('question11').style.display = 'none';
@@ -574,6 +577,7 @@ const question13 = () => {
         if (!wrongQ.includes('q12')){
             wrongQ.push('q12');
         }
+        wrong.push('מי יכול לחתום על אישור "אי המצאות תחמושת" בדו"ח איסוף חלל');
     }
     document.getElementById('haba').removeEventListener('click', question13);
     document.getElementById('question12').style.display = 'none';
@@ -585,6 +589,7 @@ const question14 = () => {
         if (!wrongQ.includes('q13')){
             wrongQ.push('q13');
         }
+        wrong.push('מי רשאילתת אישור מוות');
     }
     document.getElementById('haba').removeEventListener('click', question14);
     document.getElementById('question13').style.display = 'none';
@@ -596,6 +601,7 @@ const question15 = () => {
         if (!wrongQ.includes('q14')){
             wrongQ.push('q14');
         }
+        wrong.push('מאלו חלקים מורכב סעיף הרבנות');
     }
     document.getElementById('haba').removeEventListener('click', question15);
     document.getElementById('question14').style.display = 'none';
@@ -607,6 +613,7 @@ const question16 = () => {
         if (!wrongQ.includes('q15')){
             wrongQ.push('q15');
         }
+        wrong.push('מתי יש לכסות את החלל ומדוע');
     }
     document.getElementById('haba').removeEventListener('click', question16);
     document.getElementById('question15').style.display = 'none';
@@ -618,6 +625,7 @@ const question17 = () => {
         if (!wrongQ.includes('q16')){
             wrongQ.push('q16');
         }
+        wrong.push('באיזה שלב יפתח טופס 246');
     }
     document.getElementById('haba').removeEventListener('click', question17);
     document.getElementById('question16').style.display = 'none';
@@ -629,6 +637,7 @@ const question18 = () => {
         if (!wrongQ.includes('q17')){
             wrongQ.push('q17');
         }
+        wrong.push('איפ העל הרב לשים אצעדה');
     }
     document.getElementById('haba').removeEventListener('click', question18);
     document.getElementById('question17').style.display = 'none';
@@ -640,6 +649,7 @@ const question19 = () => {
         if (!wrongQ.includes('q18')){
             wrongQ.push('q18');
         }
+        wrong.push('אילו אמצעי זיהוי הינם זיהוי נסיבתי');
     }
     document.getElementById('haba').removeEventListener('click', question19);
     document.getElementById('question18').style.display = 'none';
@@ -651,6 +661,7 @@ const question20 = () => {
         if (!wrongQ.includes('q19')){
             wrongQ.push('q19');
         }
+        wrong.push('מה על רב הגדוד לעשות במידהויש מזהה אחד בלבד');
     }
     document.getElementById('haba').removeEventListener('click', question20);
     document.getElementById('question19').style.display = 'none';
@@ -662,6 +673,7 @@ const question21 = () => {
         if (!wrongQ.includes('q20')){
             wrongQ.push('q20');
         }
+        wrong.push('מול איזה גורמים חייב לסגור מעגלים בסיום הטיפול');
     }
     document.getElementById('haba').removeEventListener('click', question21);
     document.getElementById('question20').style.display = 'none';
@@ -673,6 +685,7 @@ const question22 = () => {
         if (!wrongQ.includes('q21')){
             wrongQ.push('q21');
         }
+        wrong.push('מה יעודו של עזר 26');
     }
     document.getElementById('haba').removeEventListener('click', question22);
     document.getElementById('question21').style.display = 'none';
@@ -684,6 +697,7 @@ const question23 = () => {
         if (!wrongQ.includes('q22')){
             wrongQ.push('q22');
         }
+        wrong.push('מהי מטרתו של קפ"ק 2');
     }
     document.getElementById('haba').removeEventListener('click', question23);
     document.getElementById('question22').style.display = 'none';
@@ -695,6 +709,7 @@ const question24 = () => {
         if (!wrongQ.includes('q23')){
             wrongQ.push('q23');
         }
+        wrong.push('מהי כמות ציוד החללים ברמת הגדוד');
     }
     document.getElementById('haba').removeEventListener('click', question24);
     document.getElementById('question23').style.display = 'none';
@@ -706,6 +721,7 @@ const question25 = () => {
         if (!wrongQ.includes('q24')){
             wrongQ.push('q24');
         }
+        wrong.push('מהי מטרתו של שלב "טיפול ראשוני בחלל"');
     }
     document.getElementById('haba').removeEventListener('click', question25);
     document.getElementById('question24').style.display = 'none';
@@ -717,6 +733,7 @@ const question26 = () => {
         if (!wrongQ.includes('q25')){
             wrongQ.push('q25');
         }
+        wrong.push('מהי הגדרת אירוע סריקה');
     }
     document.getElementById('haba').removeEventListener('click', question26);
     document.getElementById('question25').style.display = 'none';
@@ -728,6 +745,7 @@ const finish = () =>{
         if (!wrongQ.includes('q26')){
             wrongQ.push('q26');
         }
+        wrong.push('מהן שיטות הסריקה הבסיסיות ומתי משתמשים בכל שיטה');
     }
     document.getElementById('haba').removeEventListener('click', finish);
     document.getElementById('question26').style.display = 'none';
