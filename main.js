@@ -762,5 +762,10 @@ const finish = () =>{
         document.getElementById('right').innerText = ' כל הכבוד ' + document.getElementById('name').value + ' עברת את הלומדה ';
     }else{
         document.getElementById('wrong').style.display = 'inline';
+        for(let i = 0;i<wrongQ.length;i++){
+        document.getElementById('wrongQ').innerhtml = `<ul>${wrong[i]}</ul>`;
+            
+        }
+        document.getElementById('wrongQ').style.display = 'inline';
     }
 }
