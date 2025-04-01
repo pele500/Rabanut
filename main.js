@@ -763,7 +763,7 @@ const finish = () =>{
     }else{
         document.getElementById('wrong').style.display = 'inline';
         for(let i = 0;i<wrongQ.length;i++){
-        document.getElementById('wrongQ').innerhtml = `<ul>${wrong[i]}</ul>`;
+        document.getElementById('wrongQ').style.innerHTML = `<ul>${wrong[i]}</ul>`;
             
         }
         document.getElementById('wrongQ').style.display = 'inline';
