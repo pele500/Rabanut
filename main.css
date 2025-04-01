@@ -2980,6 +2980,17 @@
         font-family: miriam;
         color: #0b2c54;
     }
+    #wrongQ{
+        display: none;
+        position: absolute;
+        top: 30vh;
+        font-size: 3.5vmax;
+        font-family: miriam;
+        left: 50%;
+        transform: translate(-50%);
+        width: 50vw;
+        text-align: center;
+    }
 }
 @media screen and (max-heigt:664px){
     #name {
