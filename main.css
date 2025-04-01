@@ -2980,10 +2980,10 @@
         font-family: miriam;
         color: #0b2c54;
     }
-    #wrongQ{
+    #wrongQ {
         display: none;
         position: absolute;
-        top: 30vh;
+        top: 35vh;
         font-size: 3.5vmax;
         font-family: miriam;
         left: 50%;
