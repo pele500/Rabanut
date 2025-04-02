@@ -1544,10 +1544,10 @@
 }
 #wrongQ {
     position: absolute;
-    top: 21vh;
+    top: 25vh;
     font-size: 2vmax;
     font-family: miriam;
-    left: 50%;
+    left: 54%;
     transform: translate(-50%);
     width: 50vw;
     text-align: center;
